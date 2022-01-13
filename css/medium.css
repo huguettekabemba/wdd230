@@ -11,11 +11,11 @@
     }
 
     header{
-        padding:70px;
+        padding:50px;
     }
     picture {
-        margin-top: -200px;
+        margin-top: -400px;
         /**float: left;**/
-        margin-left: 100px;
+        margin-left: 10px;
     }
 }
