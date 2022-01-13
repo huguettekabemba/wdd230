@@ -5,4 +5,14 @@
     h2 {
         font-size: 1.5rem;
     }
+    header{
+        background-color:darkcyan;
+        color:blanchedalmond;
+        padding:70px;
+    }
+    footer{
+        background-color:darkcyan;
+        color:blanchedalmond;
+        padding: 10px;
+    }
 }
