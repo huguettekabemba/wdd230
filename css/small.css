@@ -21,9 +21,9 @@ footer{
 }
 
 picture {
-    margin-top: -80px;
-    float: left;
-    margin-left: 250px;
+    margin-top: -60px;
+    /**float: left;**/
+    margin-left: 300px;
 }
 
 ul li{
