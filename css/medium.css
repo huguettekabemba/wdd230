@@ -14,8 +14,8 @@
         padding:50px;
     }
     picture {
-        margin-top: -400px;
+        margin-top: 400px;
         /**float: left;**/
-        margin-left: 10px;
+        margin-left: 0px;
     }
 }
