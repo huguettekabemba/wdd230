@@ -23,6 +23,8 @@ footer{
 
 picture {
     float: left;
+    margin-top: 10px;
+    margin-left: 550px;
 }
 
 ul li{
