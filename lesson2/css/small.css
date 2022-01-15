@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Open+Sans:wght@500&display=swap');
+
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+}
+header, footer, main {
+	max-width: 66em;
+	margin: 0 auto;
+}
+header, footer {
+	background-color: darkcyan;
+	color: rgb(255, 255, 255);
+	padding: 5px;
+    text-align: center;	
+    border-radius: 10px;
+}
+h1 {
+	font-family: Acme, "Arial Black", fantasy;
+}
+a {
+	color: rgb(221, 17, 34);
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(64, 22, 214);
+}
+footer p a {
+	color: rgba(255, 255, 255);
+}
+footer p a:hover {
+	color: rgb(221, 17, 34);
+}
+#columns {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+	padding: 5px;
+}
+section {
+	margin: 5px;
+	border: 1px solid darkcyan; 
+	background-color:white;
+	width: auto;
+	border-radius: 10px;
+}
+h3 {
+    text-align: center;
+    margin: 0;
+	background-color: darkcyan;
+	color: rgba(255, 255, 255);
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+}
+section p {
+    margin: 15px;
+	line-height: 1.5em;
+}
+picture img {
+	max-width: 90%;
+	padding: 15px;
+} 
+
+h2 {
+    text-align: center;
+}

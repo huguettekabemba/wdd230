@@ -1,0 +1,48 @@
+#content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    
+}
+header main footer{
+    max-width: 500px;
+    margin: 1.25rem auto;
+    text-align: center;
+
+}
+header{
+    background-color:darkcyan;
+    color:blanchedalmond;
+    padding:10px;
+}
+footer{
+    background-color:darkcyan;
+    color:blanchedalmond;
+    padding: 10px;
+}
+
+picture {
+    float: left;
+    margin-top: 0px;
+    
+}
+
+ul li{
+    list-style: none;
+    
+}
+ul a{
+    text-decoration: none;
+}
+ul {
+    line-height: 2em;
+}
+
+h1 {
+    font-size: 1.5rem;
+    /*float: right;*/
+}
+
+h2 {
+    font-size: .5rem;
+}
