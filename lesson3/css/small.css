@@ -161,7 +161,7 @@ nav ul li a {
 	font-size: 16px;
 	color: #ffffff;
 }
-nav a:hover {
+nav ul li a:hover {
 	color: #f5e000;
 }
 .active {
@@ -169,5 +169,5 @@ nav a:hover {
 	height: 23px;
 }
 .active a:hover {
-	color: #000000;
+	color: #f5e000;
 }
