@@ -38,7 +38,7 @@ li a:hover {
 footer p a {
 	color: rgba(255, 255, 255, 1);
 }
-footer p a:hover {
+footer a:hover {
 	color: rgb(184, 14, 14);
 }
 
