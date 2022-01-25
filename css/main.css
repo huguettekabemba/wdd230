@@ -1,4 +1,4 @@
-#content {
+/*#content {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:black;
     text-align: center;
@@ -41,8 +41,8 @@ ul {
 h1 {
     font-size: 1.5rem;
     /*float: right;*/
-}
+/*}
 
 h2 {
     font-size: .5rem;
-}
+}*/
