@@ -1,0 +1,65 @@
+@media only screen and (min-width: 66em) {
+/*main section */
+
+#home-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        "event hero hero spot"
+        "weather hero hero spot"
+        "join news news spot"
+    ;
+}
+#events {
+    grid-area: event;
+    background-color: #7bccee;
+    padding: 15px;
+}
+
+#hero {
+    grid-area: hero;
+    background-color: #7bccee;
+    padding: 15px;
+}
+
+#spotlight {
+    grid-area: spot;
+    background-color: #7bccee;
+    padding: 15px;
+}
+
+#weather {
+    grid-area: weather;
+    background-color: #7bccee;
+    padding: 15px;
+}
+
+#join {
+    grid-area: join;
+    background-color: #7bccee;
+    padding: 15px;
+}
+
+#newRelease {
+    grid-area: news;
+    background-color: #7bccee;
+    padding: 15px;
+}
+
+/* spotlights */
+
+section#spotlight {
+    display: block;
+    border: 1px solid #000;
+}
+
+section#spotlight .spots{
+    height: 12rem;
+    border: 1px solid #000;
+}
+
+
+section#spotlight .spot3 {
+    display:block;
+    border: 1px solid #000;
+}
+}
