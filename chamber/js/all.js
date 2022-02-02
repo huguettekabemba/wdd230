@@ -1,12 +1,12 @@
 
-// button responsive 
-const button = document.querySelector('#hamb');
-const firstNav = document.querySelector('.nav1');
-
-button.onclick = () => {
-    firstNav.classList.toggle('open');
-    button.classList.toggle('open');
+// button toggle menu
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
 }
+
+const x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu;
 
 // current year
 
@@ -36,9 +36,8 @@ datefield.innerHTML = fulldate;
 
 // remove responsive when the view is large
 
-window.onresize = () => {
-    if(window.innerWidth > 1000){
-    firstNav.classList.remove('open');
-    button.classList.remove('open')
-    }
-}
+//window.onresize = () => {
+ // if(window.innerWidth > 1000){
+   // firstNav.classList.remove('open');
+ //  button.classList.remove('open');
+ //  }}

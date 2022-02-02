@@ -1,0 +1,19 @@
+@media only screen and (min-width: 35rem) {
+    nav button {display: none;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        margin-left: 2vw;
+        border-left: ipx solid rgba(0, 0, 0, 0.3);
+        justify-content: center;
+        align-items: center;
+        margin-left: -1600px;
+        margin-top: 50px;
+    }
+
+    nav ul li a {
+        border: none;
+        /*border-right: 1px solid rgba(0, 0, 0, 0.3);*/
+        
+    }
+}

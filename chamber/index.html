@@ -13,22 +13,24 @@
 </head>
 <body>
     <header>
+        <div classe="chamber"> <img src="images/logo.png" alt="logo for SA-DRC chamber">
+        <p class="site">South Africa-DRCongo<br><i>Chamber of Commerce</i></p>
+        </div>
+        <div class="socialicon">
+            <a href="https://facebook.com/" target="_blank"><img class="socialIcon1" src="images/fb.jpg" alt="facebook icon" loading="lazy">&ensp;</a>
+            <a href="https://linkedin.com/" target="_blank"><img class="socialIcon2" src="images/linkedin.jpg" alt="linkedin icon" loading="lazy">&ensp;</a>
+        </div>
+
         <nav>
-            <div><img src="images/logo.png" alt="logo for SA-DRC chamber"></div>
-            <ul>
+            <button id='hamburgerBtn'><span>&#9776;</span><span>X</span></button>
+            <ul id='primaryNav'>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div>
-                <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="images/fb.jpg" alt="facebook icon" loading="lazy">&ensp;</a>
-                <a href="https://linkedin.com/" target="_blank"><img class="socialIcon" src="images/linkedin.jpg" alt="linkedin icon" loading="lazy">&ensp;</a>
-            </div>
-            <button id="hamb"><span>&#9776;</span><span>X</span></button>
         </nav>
-
-        <div id='currenttime'><span id='time'></span></div>
+        <p id='currenttime'></p>
     </header>
     <main>
         <div class="content">
@@ -37,28 +39,32 @@
             <div id="join">Join</div>
             <div id="hero">Hero with site name and call to action</div>
             <div id="release">News Release</div>
-            <div id="spot1">Spotlight1</div>
-            <div id="spot2">Spotlight2</div>
-            <div id="spot3">Spotlight3</div>
+            <div id="spot">
+                <div id="spot1">Spotlight1</div>
+                <div id="spot2">Spotlight2</div>
+                <div id="spot3">Spotlight3</div>
+            </div>
         </div>
     </main>
     <footer>
-        <div><img src="images/logo.png" alt="logo for SA-DRC chamber"></div>
-        <section>
-            <h2>SA-DRC Chamber of Commerce</h2>
-            <p>2nd Floor, West Tower. Sandton.</p><br>
-            <p>Benmore, 2010, JHB-RSA</p>
+        <section class="barfooter">
+            <div class="adress">
+                <div><img src="images/logo.png" alt="logo for SA-DRC chamber"></div>
+                <p class="add"><strong>SA-DRC Chamber of Commerce</strong><i>
+                <br>2nd Floor, West Tower. Sandton.
+                <br>Benmore, 2010, JHB-RSA</p>
+            </div>
+            <div class="info">
+                <p><a href="#" target="blanck">info@southafricadrcongo.com</p>
+                <p>☎ +27 11 881 5626</p>
+                <p><a href="#" target="blanck">✉ contactsouthafricadrcongo.com</p>
+                <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p>
+            </div>
+        
+        <p class="footerp">&copy;<span id="year"></span> SA-RDC Chamber | Huguette N. Kabemba | WDD 230 project | Last Modification: <span id="lastmod"></span></p>
         </section>
-        <section>
-            <p>info@sadrc.com</p>
-            <p>☎ +27 11 881 5626</p>
-            <p>✉ contactsadrc.com</p>
-            <p>🚩 Location Map</p>
-        </section>
-        <hr>
-        <p>&copy;<span id="year"></span> SA-RDC Chamber | Huguette N. Kabemba | WDD 230 project | Last Modification: <span id="lastmod"></span></p>
     </footer>
-    <script src='./js/all.js'></script>
+    <script src="js/all.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>
 </body>
