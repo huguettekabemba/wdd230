@@ -106,20 +106,21 @@ header img{
 /*.chamber {
     grid-column: 1/2;
     grid-row: 1/2;
-}
+}*/
 #currenttime {
     grid-column: 1/4;
     grid-row: 2/3;
     text-align: center;
     border: 1px solid #555;
-    margin-left: 10px;
-    margin-right: 10px;
+    /*margin-left: 0px;*/
+    margin-right: -330px;
     background-color: #0081b8;
     padding: 10px;
     margin-bottom: 150px;
-    margin-top: -50px;
+    margin-top: -90px;
     font-size: 1.2rem;
     color: #ffffff;
+    
 }
 header div a {
     grid-column: 3/4;
@@ -135,7 +136,7 @@ h2 {
     font-size: 1.5em;
     }
 
-div .site{
+.site{
     color:#eecf1d;
     font-size: 1.2em;
     line-height: 1.5em;
