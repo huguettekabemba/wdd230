@@ -1,9 +1,54 @@
-@media only screen and (min-width: 64rem) {
-    nav ul li a {
-        padding: .5rem  1rem;
-        font-size: 1.3em;
-        align-items: center;
-        justify-content: center;
-        float: center;
+
+@media only screen and (min-width: 1080px) {
+    header {
+        grid-template-columns: 40% auto 100px;
+        padding: 10px 0 10px 10px;
+        text-align: left;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+    nav button {
+        display: none;
+    }
+    .navmenu {
+        grid-column: 2/3;
+        grid-row: 1;
+        place-self: center start;
+        width: 80%;
+    }
+    nav ul#primaryNav {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(50px, auto));
+        padding: 0;
+        padding-right: 100px;
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .socialicon {
+        grid-column: 3/4;
+        padding-right: 35px;
+    }
+    .chamber {
+        padding-left: 35px;
+    }
+    header ul a {
+        display: inline;
+    }
+    header ul a:hover {
+        padding: 0 5px 5px 3px;
+    }
+    .fm,
+    .fl {
+        display: none;
+    }
+    .fl {
+        display: block;
+    }
+    .credit {
+        width: 1080px;
     }
 }

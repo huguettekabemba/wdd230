@@ -1,19 +1,32 @@
-@media only screen and (min-width: 35rem) {
-    nav button {display: none;
+@media only screen and (min-width: 545px) {
+    header {
+        grid-template-columns: 55% auto 120px;
     }
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        border-left: ipx solid rgba(0, 0, 0, 0.3);
-        justify-content: center;
-        align-items: center;
-        margin-left: -1600px;
-        margin-top: 50px;
+    nav.open ul {
+        top: 125px;
     }
-
-    nav ul li a {
-        border: none;
-        /*border-right: 1px solid rgba(0, 0, 0, 0.3);*/
-        
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    .logofot {
+        display: grid;
+        grid-template-columns: 130px auto;
+        padding-top: 10px;
+    }
+    .logofot img {
+        padding-top: 25px;
+        width: 95%;
+    }
+    .info {
+        grid-row: 1;
+        grid-column: 2;
+        margin: 0;
+    }
+    .fb,
+    .fl {
+        display: none;
+    }
+    .fm {
+        display: block;
     }
 }
