@@ -51,3 +51,10 @@ li {
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
 }
+img {
+    margin-top: 0px;
+    margin-left: -120px;
+}
+p{
+    margin-top: -20px;
+}
