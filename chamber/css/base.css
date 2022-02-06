@@ -72,6 +72,7 @@ main {
 /*header section*/
 header{
     background-color:rgb(1, 54, 7);
+    margin: 10px;
     
 }
     
@@ -79,11 +80,11 @@ header{
     /*display: flex;*/
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
-/*.navheader{
+.navheader{
     display: grid;
-} */
+} 
 #hamb {
     font-size: 24px;
     background-color: transparent;
@@ -104,14 +105,21 @@ header{
 #hamb.open span:nth-child(2) {
     display: block;
 }
-div.socialicon,
-nav {
+div.socialicon{
+    margin-top: -75px;
+    padding: 20px;
+}
+div a.socialicon{
+    overflow: hidden;
+}
+/*nav {
     place-self: center end;
     display: flex;
     padding: 10px;
-    margin-top: -15rem;
-    margin-right: 1rem;
-}
+    top: 2rem;
+    /*margin-top: 15rem;*/
+    /*margin-right: 1rem;
+}*/
 
 .chamber {
     display: flex;
@@ -132,8 +140,20 @@ div img.logo{
 nav ul {
     display: none;
     list-style-type: none;
-    
-    
+}
+#primaryNav{
+    display: block;
+    /*position: fixed;*/
+    margin-top: -60px;
+    margin-right: 120px;
+    left: 45rem;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    /*background-color:rgb(1, 54, 7);*/
+}
+#primaryNav{
+    display: none;
 }
 
 nav.open ul {
@@ -155,12 +175,14 @@ header ul a {
 
 header ul a:hover {
     color: white;
+    background-color: #0081b8;
     
 }
 
 div.socialicon,
 nav {
     place-self: center end;
+    
 }
 
 /*div.socialicon {
@@ -171,11 +193,11 @@ div #currenttime {
     background-color:#0081b8;
     margin-right: 15px;
     margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
     text-align: center;
     padding: 10px;
     color:white;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
     border: 1px solid red;
 }
 /*footer section*/
