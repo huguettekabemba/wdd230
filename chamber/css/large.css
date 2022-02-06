@@ -2,4 +2,59 @@
     nav ul li a {
         padding: .5rem 1rem;
     }
+    .content{
+        display: grid;
+        /*height: 100vh;*/
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "event hero hero spot"
+            "weather hero hero spot"
+            "join release release spot";
+        grid-gap: 10px;
+    }
+    
+    #event {
+        grid-area: event;
+        background-color: #e5ecc5;
+        padding: 15px;
+        border:1px solid rgba(0, 0, 0, 0.3);
+    }
+    #weather {
+        grid-area: weather;
+        background-color:#e5ecc5;
+        padding: 15px;
+        border:1px solid rgba(0, 0, 0, 0.3);
+    }
+    #join {
+        grid-area: join;
+        background-color: #e5ecc5;
+        padding: 15px;
+        border:1px solid rgba(0, 0, 0, 0.3);
+    }
+    #hero {
+        grid-area: hero;
+        background-color: #e5ecc5;
+        padding: 15px;
+        border:1px solid rgba(0, 0, 0, 0.3);
+    }
+    #release {
+        grid-area: release;
+        background-color: #e5ecc5;
+        padding: 15px;
+        border:1px solid rgba(0, 0, 0, 0.3);
+    }
+    #spot {
+        display: block;
+    }
+    #spot3{
+        display: block;
+    }
+    #join{
+        display: block;
+    }
+    #spot>div {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 15px;
+    }
 }

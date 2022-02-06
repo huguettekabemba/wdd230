@@ -6,4 +6,73 @@
     nav ul li a {
         border: none;
     }
+   
+ /*   #primaryNav {
+     display: none;
+    }
+    #primaryNav.show {
+        display: block;
+    }
+    #primaryNav.show a {
+        text-align: center;
+    }
+      
+    button #hamb {
+        place-self: center end;
+    }
+      
+    .add {
+        flex: 2;
+    }
+      
+    #join {
+        display: block;
+    }
+    #spot3 {
+        display: none;
+    }
+    #spot {
+        display: flex;
+    }
+    #spot1,
+    #spot2 {
+        flex: 1;
+    }
+      
+    .footer1 {
+        align-items: left;
+        display: flex;
+        justify-content: center;
+    }
+    .info {
+        text-align: right;
+        margin-right: 1rem;
+        flex: 1;
+    }
+    #footermedium {
+        display: block;
+    }
+      
+    .footerp {
+        display: none;
+    }
+      
+    #footerblock {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas:
+        "hero hero hero hero hero hero hero hero"
+        "release release release release release release release release"
+        "spot spot spot spot spot spot spot spot"
+        "join join join join join join join join"
+        "event event event event event weather weather weather";
+    }*/
+      
+      
 }
