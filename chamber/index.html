@@ -1,83 +1,89 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment for the chamber of commerce site home page of week 4 in WDD 230.">
-    <title>WDD 230 &bull; Week 9 &bull; Home Page</title>
+    <meta name="description" content="Uyo Chamber of Commerce Homepage">
+    <title>SA-DRC Chamber of Commerce</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css"> 
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="images/favicon.ico">
 </head>
+
 <body id="content">
-    <header> 
-        <div id="headercontent">
-            <div class="navheader">
-                <div classe="chamber">
-                    <img class="logo" src="images/logo.png" alt="logo for SA-DRC chamber">
-                    <h3 class="site">South Africa-DRCongo<br><i>Chamber of Commerce</i></h3>
-                </div>
-                    <div class="socialicon">
-                    <a href="https://facebook.com/" target="_blank"><img class="socialIcon1" src="images/fb.png" alt="facebook icon" loading="lazy">&ensp;</a>
-                    <a href="https://linkedin.com/" target="_blank"><img class="socialIcon2" src="images/linkin.png" alt="linkedin icon" loading="lazy">&ensp;</a></div>
-                    
-                    <!--div-->
-                    <nav class="navmenu">
-                        <!--button id='hamb'><span>&#9776;</span><span>X</span></button-->
-                        <div>
-                            <button id='hamb'><span>&#9776;</span><span>X</span></button>
-                            <ul id='primaryNav'>
-                                <li><strong><a href="index.html">Home</a></strong></li>
-                                <li><strong><a href="discover.html">Discover</a></strong></li>
-                                <li><strong><a href="directory.html">Directory</a></strong></li>
-                                <li><strong><a href="join.html">Join</a></strong></li>
-                                <li><strong><a href="contact.html">Contact</a></strong></li>
-                            </ul>
-                        <div>
-                    </nav>
-                    <div><p id='currenttime'></p></div>
-                </div>
-            </div>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="south Africa DRCongo Chamber of Commerce logo"></a>
+            <h4>Chamber of Commerce</h4>
         </div>
-        
+        <div class="socials">
+            <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook image"></a>
+            <a href="https://www.linkedin.com"><img src="images/linkin.png" alt="LinkedIn image"></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li><strong><a href="#" class="btn btn-background-slid">Home</a></strong></li>
+                <li><strong><a href="#" class="btn2">Discover</a></strong></li>
+                <li><strong><a href="#" class="btn3">Directory</a></strong></li>
+                <li><strong><a href="#" class="btn4">Join</a></strong></li>
+                <li><strong><a href="#" class="btn5">Contact</a></strong></li>
+            </ul>
+        </nav>
+
+        <div class="date">
+
+        </div>
+
+        <!--div class="banner">
+            <h4>🤝🏼 let us do it toghether</h4>
+        </div-->
     </header>
-    <main>
-        <div class="content">
-            <div id="hero">Hero with site name and call to action</div>
-            <div id="event">Event</div>
-            <div id="weather">Weather</div>
-            <div id="release">News Release</div>
-            <div id="join">Join</div>
-            <div id="spot">
-                <div id="spot1">Spotlight1</div>
-                <div id="spot2">Spotlight2</div>
-                <div id="spot3">Spotlight3</div>
+
+    <main class="maincontent">
+        <div class="event">Event</div>
+        <div class="weather">Weather</div>
+        <div class="join">Join</div>
+        <div class="hero">Hero with site name and call to action</div>
+        <div class="new">News Release</div>
+        <div class="spot">
+            <div class="spotlight1">Spotlight 1</div>
+            <div class="spotlight2">Spotlight 2</div>
+            <div class="spotlight3">Spotlight 3</div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="address">
+            <a href="index.html"><img src="images/logo.png" alt="SA-DRC Chamber of Commerce logo"></a>
+            <div class="add">
+                <h4>Chamber of Commerce</h4>
+                <p><i>2nd Floor, West Tower. Sandton.</p>
+                <p>Johannesburg, South Africa</i></p>
             </div>
         </div>
-    </main>
-    <footer class="footercontent">
-        <div class="footer1">
-            <div class="adress">
-                <img src="images/logo.png" alt="logo for SA-DRC chamber">
-                <div><p class="add"><strong>SA-DRC Chamber of Commerce</strong><i>
-                    <br>2nd Floor, West Tower. Sandton.</p>
-                </div>
-            </div>
-            <div class="info">
-                <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
-                <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
-                <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p></div>
-            </div>
-        <div>
-        <div><p class="footerp">&copy;<span id="year"></span> SA-RDC Chamber | Huguette N. Kabemba | WDD 230 project | Last Modification: <span id="lastmod"></span></p>
+        <div class="contact">
+            <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
+            <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
+            <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p></div>
+        </div>
+        <div class="credit">
+            <p class="fb"></p>
+            <p class="fm"></p>
+            <p class="fl"></p>
+        </div>
     </footer>
     <script src="js/script.js"></script>
-    <script src="js/hamb.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>
 </body>
+
 </html>
 
 
