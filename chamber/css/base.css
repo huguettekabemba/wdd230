@@ -16,22 +16,10 @@ h1,h2,h3,h4 {
     color:#ffff;
 }
 
-/*p,
-a,
-.text {
-    font-family: Arial,'Times New Roman', Helvetica, serif sans-serif;
-    font-size: 18px;
-}*/
-
 header {
     background-color: #0a5200;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    /*padding: 0 5px;
-    margin: 0;
-    top: 0;
-    /*width: 100%;*/
-    /*z-index: 2;*/
 }
 
 #ham {
@@ -65,13 +53,15 @@ nav {
 .logo-container {
     display: flex;
     align-items: center;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .logo-container img {
     padding-top: 10px;
     width: 65%;
 }
-.logo-container h3{
+.logo-container h4{
     margin-left: -60px;
 }
 
@@ -92,7 +82,9 @@ nav.open ul {
     height: inherit;
     text-align: center;
 }
-
+.primary{
+    margin-right: 20px;
+}
 
 header ul a {
     display: block;
@@ -121,6 +113,11 @@ header ul a:active {
     width: 30px;
     padding-top: 10px;
     border-radius: 5px;
+    /*margin-left: 10px;*/
+}
+div.socials img{
+    margin-left: 0px;
+    
 }
 
 .date p {
@@ -137,7 +134,7 @@ header ul a:active {
     margin-right: 10px;
 }
 
-.banner {
+/*.banner {
     grid-column: 1/span 3;
     margin-top: -15px;
     display: none;
@@ -146,7 +143,7 @@ header ul a:active {
 .banner h4 {
     text-align: center;
     padding: 0;
-}
+}*/
 
 
 /* Main Section */
@@ -164,8 +161,8 @@ main {
 }
 
 main>div {
-    background-color: #f1ef9c;
-    color: rgb(177, 12, 12);
+    background-color: #34a0f3;
+    color: rgb(189, 13, 57);
     padding: 20px 5px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -220,7 +217,7 @@ footer {
     justify-items: center;
     background-color: #0a5200;
     width: 100%;
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 .address {
@@ -229,11 +226,16 @@ footer {
     /*padding-top: 0px;*/
     color:#ffff;
     margin-top: -10px;
+    margin-left: 80px;
+    /*align-items: center;
+    justify-content: center;*/
 }
 
 .contact {
     grid-row: 2;
-    margin: -40px;
+}
+.contact p{
+    margin-top: 30px;
 }
 
 .address img {
@@ -241,18 +243,28 @@ footer {
     padding-bottom: -110px;
     display: block;
     width: 50%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin-left: 0px;
+    
 }
 
 .add{
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     line-height: 5px;
+    margin-right: 0px;
+    text-align: center;
+    /*padding:10px*/
 }
 .contact a {
     text-decoration: none;
     color: #ffff;
-    line-height: 5px;
+    /*line-height: 5px;*/
+}
+div.contact{
+    margin-right: -10px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 .credit {
@@ -264,10 +276,6 @@ footer {
     width: 100%;
     color: #ffff;
 }
-/*footer div.credit{
-    margin-right: 100px;
-
-}*/
 
 .fl,
 .fm {

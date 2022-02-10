@@ -91,10 +91,8 @@ fLarge.innerHTML = `<strong>&copy; ${year} SA-DRC Chammber | Huguette kabemba n.
 
 document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
 
-window.addEventListener("load", () => {
-  if (dateNum == 1 || dateNum == 2) {
-      document.querySelector(".banner").style.display = "block";
-  } else {
-      document.querySelector(".banner").style.display = "none";
-  }
-});
+const banner = document.querySelector('#banner');
+weekday = d.getDay();
+if (weekday == 0 || weekday == 3 || weekday == 4 || weekday == 5 || weekday == 6){
+    banner.classList.toggle("closed");
+};
