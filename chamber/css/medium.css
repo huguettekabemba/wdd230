@@ -5,31 +5,46 @@
     nav.open ul {
         top: 125px;
     }
-    footer {
-        grid-template-columns: 1fr 1fr;
+
+    /*FOOTER*/
+    .address-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
     }
-    .address {
-        display: grid;
-        grid-template-columns: 130px auto;
-        padding-top: 10px;
+    .address-1 .address{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
     }
+    .add{
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+    .contact{
+        margin-top: -40px;
+    }
+    footer a{
+        color:#fff;
+        text-decoration: none;
+    }
+    .footer1{
+        padding: 10px;
+        font-size: 16px;
+    }
+
     .address img {
-        padding-top: 15px;
-        width: 95%;
-    }
-    .contact {
-        grid-row: 1;
-        grid-column: 2;
-        margin: 0;
-        line-height: 5px;
-    }
-    .fb,
-    .fl {
-        display: none;
-    }
-    .fm {
+        
+        padding-bottom: -110px;
         display: block;
+        width: 75%;
+        /*margin: 0 auto;
+        margin-left: 0px;*/
     }
+
+    
     /* the main section*/
     main {
         grid-template-columns: repeat(3, 1fr);

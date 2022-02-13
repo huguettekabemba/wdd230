@@ -18,9 +18,10 @@
 <body id="content">
 
     <header>
+        
         <div class="logo-container">
-            <a href="index.html"><img src="images/logo.png" alt="south Africa DRCongo Chamber of Commerce logo"></a>
-            <h4>Chamber of Commerce</h4>
+            <div><a href="index.html"><img src="images/logo.png" alt="south Africa DRCongo Chamber of Commerce logo"></a></div>
+            <div><h4>Chamber<br>of Commerce</h4></div>
         </div>
         <div class="socials">
             <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook image"></a>
@@ -36,10 +37,7 @@
                 <li><strong><a href="#" class="btn5">Contact</a></strong></li>
             </ul>
         </nav>
-
-        <div class="date">
-        </div>
-        <!--div id="banner"><h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div-->
+        <div class="date"></div>
     </header>
 
     <main class="maincontent">
@@ -58,10 +56,15 @@
         <div class="join"><button>Join us</button>
             <p>Discover how to join the chmaber of commerce and how it will benefit your organization!</p>
         </div>
-        <div class="hero">
-            <div><h2>Welcome to South Africa</h2></div>
-            <button>Join the chamber</button>
-            <picture></picture>
+        <div class="hero" id="hero">
+            <picture>
+                <img src="images/bannerrsz.jpg" alt="south africa photo">
+                <!--img src="images/team.jpg" alt="south africa photo">
+                <img src="images/team2.jpg" alt="south africa photo"-->
+            </picture>
+            <div class="banner"  id="banner"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+            <div class="heroh2"><h2>Welcome to South Africa</h2></div>
+            <button class="heronbtn">Join the chamber</button>
         </div>
         <div class="new"><h4>News Release</h4>
             <p>We are living through a difficult time for society and our economies. The crisis around the COVID-19 pandemic has
@@ -97,26 +100,26 @@
     </main>
 
     <footer>
-        <div class="address">
-            <a href="index.html"><img src="images/logo.png" alt="SA-DRC Chamber of Commerce logo"></a>
-            <div class="add">
-                <h4>Chamber of Commerce</h4>
-                <p><i>2nd Floor, West Tower. Sandton.</p>
-                <p>Johannesburg, South Africa</i></p>
+        <div class="address-1">
+            <div class="address">
+                <div><a href=""><img src="images/logo.png" alt="SA-DRC Chamber of Commerce logo"></a></div>
+                <div class="add">
+                    <h4>Chamber of Commerce</h4>
+                    <p><i>2nd Floor, West Tower. Sandton.<br>Johannesburg, South Africa</i></p>
+                </div>
+            </div>
+            <div class="contact">
+                <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
+                <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
+                <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p></div>
             </div>
         </div>
-        <div class="contact">
-            <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
-            <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
-            <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p></div>
-        </div>
-        <div class="credit">
-            <p class="fb"></p>
-            <p class="fm"></p>
-            <p class="fl"></p>
+        <hr>
+        <div class="footer1">
+            <p>&copy;<span id='year'></span> SA-DRC Chamber of Commerce .:|:. N. Kabemba huguete .:|:. WDD 230 Project .:|:. Last Modification: <span id='lastmod'></span></p>
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script> 
     <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>
 </body>
 

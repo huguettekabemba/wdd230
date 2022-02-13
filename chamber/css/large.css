@@ -43,16 +43,7 @@
     .banner {
         margin-bottom: -7px;
     }
-    .fm,
-    .fl {
-        display: none;
-    }
-    .fl {
-        display: block;
-    }
-    .credit {
-        width: 1080px;
-    }
+    
     /* the main section */
     main {
         margin: 10px auto;
