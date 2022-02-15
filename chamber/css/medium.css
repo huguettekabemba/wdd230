@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     header {
-        grid-template-columns: 55% auto 120px;
+       margin: 10px;
     }
     nav.open ul {
         top: 125px;
@@ -13,15 +13,24 @@
         align-items: center;
         justify-content: space-around;
         padding: 10px;
+        margin-bottom: -30px;
+        
     }
     .address-1 .address{
         display: flex;
         align-items: center;
         flex-direction: row;
     }
+    .address-1 .address img{
+        margin: -10px 30px 0 0;
+        width: 60%;
+    }
     .add{
         margin-top: -10px;
-        margin-left: -50px;
+        margin-left: -80px;
+    }
+    .add h4{
+        margin: 0 0 -10px 0;
     }
     .contact{
         margin-top: -40px;
@@ -31,19 +40,9 @@
         text-decoration: none;
     }
     .footer1{
-        padding: 10px;
-        font-size: 16px;
+        padding: 1px;
+        font-size: 18px;
     }
-
-    .address img {
-        
-        padding-bottom: -110px;
-        display: block;
-        width: 75%;
-        /*margin: 0 auto;
-        margin-left: 0px;*/
-    }
-
     
     /* the main section*/
     main {
@@ -52,6 +51,7 @@
     .hero {
         grid-column: 1/4;
         grid-row: 1;
+        margin-bottom: 0px;
     }
     .new {
         grid-column: 1/4;
@@ -83,5 +83,9 @@
     .weather {
         grid-column: 3/4;
         grid-row: 5;
+    }
+    picture hero-image{
+        width: 50%;
+        border: 1px red dahshed
     }
 }

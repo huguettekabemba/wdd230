@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 67.5em) {
     header {
         grid-template-columns: 40% auto 100px;
         padding: 10px 0 10px 10px;
@@ -8,6 +8,7 @@
         list-style-type: none;
         display: flex;
     }
+    
     nav button {
         display: none;
     }
@@ -15,17 +16,22 @@
         grid-column: 2/3;
         grid-row: 1;
         place-self: center start;
-        width: 80%;
+        width: 50%;
     }
     nav ul#menu {
-        display: grid;
-        grid-template-columns: repeat(5, minmax(50px, auto));
-        padding: 0;
-        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        /*grid-template-columns: repeat(5, minmax(50px, auto));*/
+        /*padding: 100px;*/
+        /*padding-right: 100px;*/
         text-align: center;
-        position: relative;
-        top: 0;
-        left: 0;
+        /*position: relative;*/
+        /*top: 0;
+        left: 0;*/
+        font-size: 20px;
+    }
+    #menu li{
+        padding: 0 20px 0 20px;
     }
     .socials {
         grid-column: 3/4;
@@ -40,9 +46,6 @@
     header ul a:hover {
         padding: 0 5px 5px 3px;
     }
-    .banner {
-        margin-bottom: -7px;
-    }
     
     /* the main section */
     main {
@@ -53,7 +56,7 @@
         grid-gap: 5px;
         background-color: transparent;
         padding: 10px;
-        max-width: 1080px;
+        /*max-width: 1080px;*/
     }
     main>div {
         padding: 20px 5px;

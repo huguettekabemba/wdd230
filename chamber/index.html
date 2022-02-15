@@ -17,97 +17,70 @@
 
 <body id="content">
 
-    <header>
-        
-        <div class="logo-container">
-            <div><a href="index.html"><img src="images/logo.png" alt="south Africa DRCongo Chamber of Commerce logo"></a></div>
-            <div><h4>Chamber<br>of Commerce</h4></div>
+    <header class="clearfix">
+        <div class="header-content">
+            <div class="logo-container">
+                <a href="index.html"><img src="images/logo.webp" alt="south Africa DRCongo Chamber of Commerce logo"></a>
+                <h4>Chamber<br>of Commerce</h4>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook image"></a>
+                <a href="https://www.linkedin.com"><img src="images/linkin.png" alt="LinkedIn image"></a>
+            </div>
+            <nav class="primary">
+                <button id="ham"><span>&#9776;</span><span>X</span></button>
+                <ul id="menu">
+                    <li><strong><a href="#" class="btn btn-background-slid">Home</a></strong></li>
+                    <li><strong><a href="#" class="btn2">Discover</a></strong></li>
+                    <li><strong><a href="#" class="btn3">Directory</a></strong></li>
+                    <li><strong><a href="#" class="btn4">Join</a></strong></li>
+                    <li><strong><a href="#" class="btn5">Contact</a></strong></li>
+                </ul>
+            </nav>
         </div>
-        <div class="socials">
-            <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook image"></a>
-            <a href="https://www.linkedin.com"><img src="images/linkin.png" alt="LinkedIn image"></a>
-        </div>
-        <nav class="primary">
-            <button id="ham"><span>&#9776;</span><span>X</span></button>
-            <ul id="menu">
-                <li><strong><a href="#" class="btn btn-background-slid">Home</a></strong></li>
-                <li><strong><a href="#" class="btn2">Discover</a></strong></li>
-                <li><strong><a href="#" class="btn3">Directory</a></strong></li>
-                <li><strong><a href="#" class="btn4">Join</a></strong></li>
-                <li><strong><a href="#" class="btn5">Contact</a></strong></li>
-            </ul>
-        </nav>
         <div class="date"></div>
     </header>
 
-    <main class="maincontent">
-        <div class="event">
-            <h4>Ribbon cutting</h4>
-            <h5>The Diamond Shack</h5>
-            join us for the grand opening of the Diamond shack, Tuesday at 1:00 p.m.<a href="#">more info...</a>
-        </div>
-        <div class="weather"><h4>Weather</h4>
-            <div><img src="images/cloudly2.png"><p>33°C</p></div>
-            <p>partly cloudy</p>
-            <hr>
-            <p>Wind speed:2.5km/h<br>
-                Wind chill: N/A</p>
+    <main class="maincontent" class="clearfix">
+        <div class="event">Event</div>
+        <div class="weather">
+            <h5>Weather</h5>
+            <div class="icon">
+                <img src="images/cloudly2.png" alt="weather picture">
+                <p><strong><span id="temp">33</span>°C</strong></p>
+            </div>
+            <p><strong>Partly Cloudy</strong></p>
+            <hr class="speed-wind">
+            <p>Wind Speed: <span id="speed">2.5 km/h</span></p>
+            <p id="chill">Wind Chill: 2.5km/h</p>
         </div>
         <div class="join"><button>Join us</button>
-            <p>Discover how to join the chmaber of commerce and how it will benefit your organization!</p>
         </div>
         <div class="hero" id="hero">
-            <picture>
-                <img src="images/bannerrsz.jpg" alt="south africa photo">
-                <!--img src="images/team.jpg" alt="south africa photo">
-                <img src="images/team2.jpg" alt="south africa photo"-->
+            <picture class="hero-image">
+                <source media="(max-width: 32.5em)" srcset="images/small500.jpg">
+                <source media="(max-width: 67.5em)" srcset="images/medium519.jpg">
+                <img src="images/large1079.jpg" alt="">
             </picture>
-            <div class="banner"  id="banner"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
-            <div class="heroh2"><h2>Welcome to South Africa</h2></div>
-            <button class="heronbtn">Join the chamber</button>
         </div>
-        <div class="new"><h4>News Release</h4>
-            <p>We are living through a difficult time for society and our economies. The crisis around the COVID-19 pandemic has
-                left no one untouched. The virus is not only claiming human lives - it is subjecting
-                individual countries and the global political order to extraordinary stress rarely seen in peacetime. But these challenges only reinforce our resolve to continue working towards the Chamber's vision - Making The Business More
-                Resilient.</p>
-        </div>
+        <div class="new">new realese</div>
         <div class="spot">
-            <div class="spotlight1">
-                <h4>Build a Treefort</h4>
-                <img src="images/truckg.png">
-                <p><i>"We get it for you!"</i></p>
-                <hr>
-                hello@thankfultransport.com <br>+999-9999-9999 website
-            </div>
-            <div class="spotlight2">
-                <h4>Code Primera</h4>
-                <img src="images/pen2.png">
-                <p><i>"An after school coding an instructional"</i></p>
-                <hr>
-                contact@codeprimera.com <br>+999-9999-9999 website
-            </div>
-            <div class="spotlight3">
-                <h4>Build a Treefort</h4>
-                <img src="images/treehouse.png">
-                <p><strong><i>Over 1000 plans!</i></strong></p>
-                <hr>
-                <p>builda@treefort.com <br>+27 83 542 3662 website</p>
-            </div>
-
+            <div class="spotlight1">spotlight1</div>
+            <div class="spotlight2">spotlight2</div>
+            <div class="spotlight3">spotlight3</div>
         </div>
-
     </main>
 
-    <footer>
+    <footer class="clearfix">
         <div class="address-1">
             <div class="address">
-                <div><a href=""><img src="images/logo.png" alt="SA-DRC Chamber of Commerce logo"></a></div>
+                <div><a href=""><img src="images/logo.webp" alt="SA-DRC Chamber of Commerce logo"></a></div>
                 <div class="add">
                     <h4>Chamber of Commerce</h4>
-                    <p><i>2nd Floor, West Tower. Sandton.<br>Johannesburg, South Africa</i></p>
+                    <p><i>2nd Floor, West Tower<br>Johannesburg, South Africa</i></p>
                 </div>
             </div>
+    
             <div class="contact">
                 <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
                 <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
@@ -119,7 +92,8 @@
             <p>&copy;<span id='year'></span> SA-DRC Chamber of Commerce .:|:. N. Kabemba huguete .:|:. WDD 230 Project .:|:. Last Modification: <span id='lastmod'></span></p>
         </div>
     </footer>
-    <script src="js/script.js"></script> 
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script> 
     <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>
 </body>
 
