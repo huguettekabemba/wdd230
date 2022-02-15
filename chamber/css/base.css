@@ -171,6 +171,7 @@ main>div {
     font-size: 1.2em;
     margin-top: 10px;
     padding:10px;
+    color: #000;
 }
 div.icon{
     display: flex;
