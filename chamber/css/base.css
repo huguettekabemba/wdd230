@@ -24,9 +24,16 @@ header {
 }
 .header-content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+}
+.socialnav{
+    display: grid;
+    grid-template-columns: 75% 25%;
     grid-template-rows: 1fr;
+    margin-left: -40px;
     
+
 }
 #ham {
     font-size: 24px;
@@ -55,6 +62,7 @@ header {
 div.socials,
 nav {
     place-self: center end;
+    margin-left: -600px;
 }
 
 .logo-container {
@@ -123,6 +131,7 @@ header ul a:hover {
     padding: 7px 5px;
     color:  #ffff;
     border-radius: 5px;
+    
 }
 
 .date {
@@ -130,6 +139,7 @@ header ul a:hover {
     margin-top: -20px;
     margin-bottom: -10px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 #banner {
     text-align: center;
