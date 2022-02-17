@@ -131,7 +131,14 @@ header ul a:hover {
     margin-bottom: -10px;
     margin-right: 10px;
 }
-
+#banner {
+    text-align: center;
+    grid-column: 1/4;
+    
+}
+#banner.closed{
+    display: none;
+}
 
 /* Main Section */
 

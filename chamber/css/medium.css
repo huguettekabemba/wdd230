@@ -14,6 +14,7 @@
         justify-content: space-around;
         padding: 10px;
         margin-bottom: -30px;
+        margin-left: -50px;
         
     }
     .address-1 .address{
@@ -33,7 +34,7 @@
         margin: 0 0 -10px 0;
     }
     .contact{
-        margin-top: -40px;
+        margin-top: -10px;
     }
     footer a{
         color:#fff;

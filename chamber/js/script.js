@@ -61,15 +61,10 @@ const monthName = months[today.getMonth()];
 const dateNum = today.getDate();
 const year = today.getFullYear();
 
-
-//fBase.innerHTML = `<strong>&copy; ${year} SA-DRC Chammber <br> Huguette kabemba n. <br> WDD 230 Project <br> Last Modification: ${document.lastModified} </strong>`;
-//fMed.innerHTML = `<strong>&copy; ${year} SA-DRC Chammber | Huguette kabemba n. | WDD 230 Project |<br> Last Modification: ${document.lastModified} </strong>`;
-//fLarge.innerHTML = `<strong>&copy; ${year} SA-DRC Chammber | Huguette kabemba n. | WDD 230 Project | Last Modification: ${document.lastModified} </strong>`;
-
 document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
 
 const banner = document.querySelector('#banner');
 weekday = d.getDay();
 if (weekday == 0 || weekday == 3 || weekday == 4 || weekday == 5 || weekday == 6){
-    banner.classList.toggle("open");
+    banner.classList.toggle("closed");
 };
