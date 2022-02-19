@@ -1,0 +1,61 @@
+let imagesToLoad = document.querySelectorAll('img[data-src]');
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {
+    image.removeAttribute('data-src');
+  };
+};
+
+if('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+      items.forEach((item) => {
+        if(item.isIntersecting) {
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
+    });
+    imagesToLoad.forEach((img) => {
+      observer.observe(img);
+    });
+} else {
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
+    });
+  }
+//date section
+  const daynames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
+  
+  // month name array
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ];
+  
+  const today = new Date();
+  
+  const dayName = daynames[today.getDay()];
+  const monthName = months[today.getMonth()];
+  const dateNum = today.getDate();
+  const year = today.getFullYear();
+  
+  document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
+  
