@@ -44,4 +44,11 @@
         padding: 1px;
         font-size: 18px;
     }
+    /*Gallery*/
+    .sun img:hover{border-radius: 50px 400px 50px 400px;}
+    .humankind img:hover{box-shadow: 0 0 50px #333;}
+    .voortrekker img:hover{opacity: .5;}
+    .park img:hover{filter: blur(1px) grayscale(75%);}
+    .trafigura img:hover{width: 50%; height: 300px ; object-fit: cover;}
+    .tablemountain img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0;}
 }

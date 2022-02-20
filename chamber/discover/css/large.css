@@ -43,7 +43,13 @@
     header ul a:hover {
         padding: 0 5px 5px 3px;
     }
-    /*.galleryBlock:hover {
-        box-shadow: 0px 0px 10px 5px #888888;
-    }*/
+    /*Gallery section*/
+
+    .sun img:hover{border-radius: 50px 400px 50px 400px;}
+    .humankind img:hover{box-shadow: 0 0 50px #333;}
+    .voortrekker img:hover{opacity: .5;}
+    .park img:hover{filter: blur(1px) grayscale(75%);}
+    .trafigura img:hover{width: 50%; height: 300px ; object-fit: cover;}
+    .tablemountain img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0;}
+    /*.drakensberg img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle();}*/
 }
