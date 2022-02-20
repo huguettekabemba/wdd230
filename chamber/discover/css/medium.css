@@ -51,4 +51,6 @@
     .park img:hover{filter: blur(1px) grayscale(75%);}
     .trafigura img:hover{width: 50%; height: 300px ; object-fit: cover;}
     .tablemountain img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0;}
+
+    
 }

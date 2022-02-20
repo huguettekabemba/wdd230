@@ -49,7 +49,15 @@
     .humankind img:hover{box-shadow: 0 0 50px #333;}
     .voortrekker img:hover{opacity: .5;}
     .park img:hover{filter: blur(1px) grayscale(75%);}
-    .trafigura img:hover{width: 50%; height: 300px ; object-fit: cover;}
-    .tablemountain img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0;}
-    /*.drakensberg img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle();}*/
+    .trafigura img:hover{width: 100%; height: 300px ; object-fit: cover;}
+    .tablemountain img:hover{
+        border-radius: 400px; width:100%; margin: 0 3em .5em 0;}
+    .island img:hover {
+        box-shadow: 0 0 50px #333; 
+    }
+    .hole-wall img:hover{filter: blur(1px) grayscale(75%);}
+    .drakensberg img:hover{opacity: .5;}
+
+   
 }
+

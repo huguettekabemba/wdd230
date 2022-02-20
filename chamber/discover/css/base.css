@@ -68,13 +68,12 @@ nav {
     display: flex;
     align-items: center;
     padding: 10px;
-    margin: 0 -80px 0 0;
     
 }
 
 div.logo-container img {
     padding-top: -10px;
-    margin: 0 0 0 -10px;
+    margin: 0 0 0 -20px;
     width: 60%;
     
 }
@@ -174,21 +173,36 @@ body{
 }
 #discoverGallery{
     display: grid;
-    grid-template-columns: 1fr;
-}
-div.galleryBlock{
+    grid-template-columns: 600px;
+    
     align-items: center;
     justify-content: center;
 }
+
 .galleryBlock p {
-	padding: 10px;
-	margin: 0;
+    padding: 10px;
+    margin: -10px 0 40px 0;
     border:1px solid rgba(177, 203, 218, 0.404);
-    margin:-5px 375px 30px 375px;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     line-height: 25px;
-    position: relative;
-}
-main h2{
+    background-color: #f3ba1e;
+    
+    }
+main h2, h5{
     color: #000;
+}
+
+.tablemountain img {
+    border-radius: 10px 10px 0 0;
+}
+.sun img, 
+.humankind img, 
+.voortrekker img, 
+.park img, 
+.trafigura img,
+.tablemountain img, 
+.island img,
+.hole-wall img, 
+.drakensberg img{
+    border-radius: 10px 10px 0 0;
 }
