@@ -13,25 +13,36 @@ body {
 	font-family: Acme, Arial, sans-serif;
 }
 
+h1 {
+	font-size: 1.5rem;
+}
+
 main {
-	margin: 0.5rem;
-	border: 1px solid #999;
+	margin: 0.5rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 0.5rem;
 	background-color: #bed;
 	display: grid;
-	grid-template-columns: 1;
+	grid-template-columns: 1fr;
+	width: 95%;
 }
 
 input,
 button {
-	padding: 0.5rem;
+	padding: 0.35rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
+}
+
+input {
+	width: 200px;
 }
 
 label {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
-.araycontainer {
-	border: 1px solid #bbb;
+.listcontainer {
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin: 1rem;
 	padding: 1rem;
 }
@@ -51,10 +62,13 @@ li {
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
 }
-img {
-    margin-top: 0px;
-    margin-left: -120px;
-}
-p{
-    margin-top: -20px;
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 480px;
+	}
 }
