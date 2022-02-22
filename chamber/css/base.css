@@ -141,8 +141,7 @@ header ul a:hover {
 }
 #banner {
     text-align: center;
-    grid-column: 1/4;
-    
+    grid-column: 1/4; 
 }
 #banner.closed{
     display: none;

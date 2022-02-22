@@ -68,3 +68,4 @@ weekday = d.getDay();
 if (weekday == 0 || weekday == 3 || weekday == 4 || weekday == 5 || weekday == 6){
     banner.classList.toggle("closed");
 };
+
