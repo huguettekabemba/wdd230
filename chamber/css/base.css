@@ -2,7 +2,7 @@
 #content {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(252, 218, 106);
     box-sizing: border-box;
     font-family: 'Arial','Times New Roman', Helvetica, serif sans-serif;
     font-size: 18px;
@@ -41,6 +41,7 @@ header {
     border-radius: 5px;
     margin-right: 10px;
     margin-left: -10px;
+    z-index: 1;
 }
 
 #ham span:nth-child(1) {
@@ -139,17 +140,10 @@ header ul a:hover {
     margin-right: 10px;
     margin-left: 10px;
 }
-#banner {
-    text-align: center;
-    grid-column: 1/4; 
-}
-#banner.closed{
-    display: none;
-}
 
 /* Main Section */
 
-main {
+.maincontent{
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: minmax(300px, auto);
@@ -161,13 +155,31 @@ main {
     margin: auto;
 }
 
-main>div {
+.maincontent>div{
     background-color: #34a0f3;
     color: white;
     font-size: 1.2rem;
-    /*font-weight: bold;*/
+    
 }
-
+/*banner section*/
+.heropic {
+    position: relative;
+    margin: 0 10px 0 10px;
+    z-index: 0;
+}
+#banner {
+    text-align: center;
+    font-size: 1em;
+    color:rgb(10, 6, 66);
+    font-weight: bold;
+    display: none; 
+}
+.heropic img{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    z-index: 0;
+}
 .event {
     grid-row: 2;
     padding: 10px;
@@ -221,8 +233,7 @@ div.icon img{
 }
 main picture.hero-image{
     width: 50%;
-    /*margin: -2% -2% 0 2%;*/
-    /*border: px red dashed;*/
+    
 }
 .hero-image img{
     width: 100%;

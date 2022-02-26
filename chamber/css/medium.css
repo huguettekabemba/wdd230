@@ -46,7 +46,12 @@
     }
     
     /* the main section*/
-    main {
+    /*main{
+        display: flex;
+        flex-direction: column;
+    }*/
+    
+    .maincontent {
         grid-template-columns: repeat(3, 1fr);
     }
     .hero {
@@ -87,6 +92,7 @@
     }
     picture hero-image{
         width: 50%;
-        border: 1px red dahshed
+        
     }
+    
 }

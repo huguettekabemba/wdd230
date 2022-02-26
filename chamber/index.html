@@ -17,7 +17,10 @@
 </head>
 
 <body id="content">
-
+    <div id="banner"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        <br> At West Tower, 2nd Floor.</p>
+    </div>
+    
     <header class="clearfix">
         <div class="header-content">
             <div class="logo-container">
@@ -42,36 +45,40 @@
             </div>
         </div>
         <div class="date"></div>
-        <div id="banner" class="closed"><h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
+            
     </header>
 
-    <main class="maincontent" class="clearfix">
-        <div class="event">Event</div>
-        <div class="weather">
-            <h5>Weather</h5>
-            <div class="icon">
-                <img src="images/cloudly2.png" alt="weather picture">
-                <p><strong><span id="temp">33</span>°C</strong></p>
+    <main>
+        <div class="heropic">
+            <img src="images/heropic.jpg" alt="image of tow in south Africa">
+        </div>
+        <div class="maincontent" class="clearfix">
+            <div class="event">Event</div>
+            <div class="weather">
+                <h5>Weather</h5>
+                <div class="icon">
+                    <img src="images/cloudly2.png" alt="weather picture">
+                    <p><strong><span id="temp">33</span>°C</strong></p>
+                </div>
+                <p><strong>Partly Cloudy</strong></p>
+                <hr class="speed-wind">
+                <p>Wind Speed: <span id="speed">2.5 km/h</span></p>
+                <p id="chill">Wind Chill: 2.5km/h</p>
             </div>
-            <p><strong>Partly Cloudy</strong></p>
-            <hr class="speed-wind">
-            <p>Wind Speed: <span id="speed">2.5 km/h</span></p>
-            <p id="chill">Wind Chill: 2.5km/h</p>
-        </div>
-        <div class="join"><button>Join us</button>
-        </div>
-        <div class="hero" id="hero">
-            <picture class="hero-image">
-                <source media="(max-width: 32.5em)" srcset="images/small500.jpg">
-                <source media="(max-width: 67.5em)" srcset="images/medium519.jpg">
-                <img src="images/large1079.jpg" alt="">
-            </picture>
-        </div>
-        <div class="new">new realese</div>
-        <div class="spot">
-            <div class="spotlight1">spotlight1</div>
-            <div class="spotlight2">spotlight2</div>
-            <div class="spotlight3">spotlight3</div>
+            <div class="join">Join</div>
+            <div class="hero" id="hero">
+                <picture class="hero-image">
+                    <source media="(max-width: 32.5em)" srcset="images/small500.jpg">
+                    <source media="(max-width: 67.5em)" srcset="images/medium519.jpg">
+                    <img src="images/large1079.jpg" alt="meeting time">
+                </picture>
+            </div>
+            <div class="new">new realese</div>
+            <div class="spot">
+                <div class="spotlight1">spotlight1</div>
+                <div class="spotlight2">spotlight2</div>
+                <div class="spotlight3">spotlight3</div>
+            </div>
         </div>
     </main>
 
@@ -84,7 +91,7 @@
                     <p><i>2nd Floor, West Tower<br>Johannesburg, South Africa</i></p>
                 </div>
             </div>
-    
+        
             <div class="contact">
                 <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
                 <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
@@ -96,6 +103,7 @@
             <p>&copy;<span id='year'></span> SA-DRC Chamber of Commerce .:|:. N. Kabemba huguete .:|:. WDD 230 Project .:|:. Last Modification: <span id='lastmod'></span></p>
         </div>
     </footer>
+    
     <script src="js/script.js"></script>
     <script src="js/windchill.js"></script> 
     <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>

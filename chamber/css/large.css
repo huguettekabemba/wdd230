@@ -21,13 +21,7 @@
     nav ul#menu {
         display: flex;
         flex-direction: row;
-        /*grid-template-columns: repeat(5, minmax(50px, auto));*/
-        /*padding: 100px;*/
-        /*padding-right: 100px;*/
         text-align: center;
-        /*position: relative;*/
-        /*top: 0;
-        left: 0;*/
         font-size: 20px;
         align-items: center;
         justify-content: center;
@@ -51,7 +45,7 @@
     }
     
     /* the main section */
-    main {
+    .maincontent {
         margin: 10px auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -61,7 +55,7 @@
         padding: 10px;
         /*max-width: 1080px;*/
     }
-    main>div {
+    .maincontent>div {
         padding: 20px 5px;
     }
     .event {
@@ -104,4 +98,6 @@
     .join {
         display: block;
     }
+
+    
 }
