@@ -137,11 +137,11 @@ header ul a:hover {
     margin-right: 10px;
     margin-left: 10px;
 }
-#banner {
+/*#banner {
     text-align: center;
     grid-column: 1/4;
     
-}
+}*/
 /*#banner.closed{
     display: none;
 }*/
@@ -180,9 +180,7 @@ form legend {
 form label {
 	display: block;
 }
-/*.standardLabel {
-	padding: 10px;
-}*/
+
 .slider {
 	display: block;
 	margin-top: 2px;
@@ -306,7 +304,7 @@ input[type=number] {
     display: grid;
     grid-template-columns: 1fr;	
     padding: 20px;
-    max-width: 700px;
+    /*max-width: 700px;*/
 }
 form{
     align-items: center;

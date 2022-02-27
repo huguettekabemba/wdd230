@@ -52,6 +52,6 @@ const monthName = months[today.getMonth()];
 const dateNum = today.getDate();
 const year = today.getFullYear();
 
-document.querySelector("date").innerHTML = `<p><strong>${dayName} ${dateNum} ${monthName} ${year}</strong></p>`;
+document.querySelector(".date").innerHTML = `<p><strong>${dayName} ${dateNum} ${monthName} ${year}</strong></p>`;
 
 
