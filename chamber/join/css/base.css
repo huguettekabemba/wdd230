@@ -180,7 +180,9 @@ form legend {
 form label {
 	display: block;
 }
-
+.standardLabel {
+	padding: 10px;
+}
 .slider {
 	display: block;
 	margin-top: 2px;
@@ -270,62 +272,24 @@ input[type="submit"] {
 :-moz-placeholder { /* Firefox 18- */
 	color: #888888;
   }
-.dateColor {
+/*.dateColor {
     color: #888888;
-}
+}*/
 /* change the color of the storm date */
-.dateColor {
+/*.dateColor {
 	color: #888888;
-}
+}*/
 
-/* hidden arrows on num input (zip code) for Chrome, Safari, Edge, Opera*/
+/* hidden arrows on num input for Chrome, Safari, Edge, Opera*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-/* hidden arrows on num input (zip code) for Firefox */
+/* hidden arrows on num input for Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
-.report {
+.reportStormImg {
 	display: none;
-}
-.infoheader{
-    text-align: center;
-    margin: 10px 0 20px 0;
-}
-.infoheader h2{
-    color:  #e49d0f;
-    padding: 10px; 
-}
-
-#info {
-    display: grid;
-    grid-template-columns: 1fr;	
-    padding: 20px;
-    /*max-width: 700px;*/
-}
-form{
-    align-items: center;
-    justify-content: center;
-}
-
-.member{
-    border: 1px solid rgb(6, 2, 65);
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #e49d0f;
-    color:white
-}
-.contactjoin{
-    border: 1px  solid rgb(6, 2, 65);
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #e49d0f;
-    color:white
-}
-
-.standardLabel{
-    margin-top: 50px;
 }
