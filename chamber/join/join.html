@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SA-DRC chamber of Commerce Homepage">
+    <title>SA-DRC Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body id="content">
+    <!--div id="banner"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        <br> At West Tower, 2nd Floor.</p>
+    </div-->
+    <header class="clearfix">
+        <div class="header-content">
+            <div class="logo-container">
+                <a href="index.html"><img src="images/logo.webp" alt="south Africa DRCongo Chamber of Commerce logo"></a>
+                <h4>Chamber<br>of Commerce</h4>
+            </div>
+            <div class="socialnav">
+                <div class="socials">
+                    <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook image"></a>
+                    <a href="https://www.linkedin.com"><img src="images/linkin.png" alt="LinkedIn image"></a>
+                </div>
+                <nav class="primary">
+                    <button id="ham"><span>&#9776;</span><span>X</span></button>
+                    <ul id="menu">
+                        <li><strong><a href="#" class="btn btn-background-slid">Home</a></strong></li>
+                        <li><strong><a href="#" class="btn2">Discover</a></strong></li>
+                        <li><strong><a href="#" class="btn3">Directory</a></strong></li>
+                        <li><strong><a href="#" class="btn4">Join</a></strong></li>
+                        <li><strong><a href="#" class="btn5">Contact</a></strong></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>  
+        <div class="date"></div>   
+    </header>
+     
+    <main>
+        <div class="infoheader">
+            <h2>Membership Application Form</h2>
+            <p>Who should be a member of the SA-DRC Chamber?<br>if you are interested in becoming a member of SA-DRC Chamber,<br> please complete the form.</p>
+        </div> 
+        <div id="info">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend class="contactjoin">Contact Information</legend>
+                    <label class="standardLabel">First Name:<input type="text" name="fname" pattern="[\sa-zA-Z]{5,}" placeholder="First name" class="standardInput" required></label>
+                    <label class="standardLabel">Last Name:<input type="text" name="lname" pattern="[\sa-zA-Z]{5,}" placeholder="Last name" class="standardInput" required></label>
+                    <label class="standardLabel">Business Position:<input type="text" name="title" pattern="[\sa-zA-Z]{7,}" placeholder="A business position" class="standardInput"></label>
+                    <label class="standardLabel">Email:<input type="email" name="email" placeholder="example@demo.com" class="standardInput" required ></label>
+                    <label class="standardLabel">Phone Number:<input type="tel" name="phone" placeholder="123 456 7890" pattern="[0-9]{10,}" class="standardInput" required></label>
+                    <label class="standardLabel">Business Name:<input type="text" name="title" class="standardInput" required></label>
+                </fieldset>
+               
+                <fieldset>    
+                    <legend class="member">Membership Level</legend>
+                    <label class="radioLabel"><input type="radio" name="" value="npmembership">NP Membership</label>
+                    <label class="radioLabel"><input type="radio" name="bronzemembership" value="Bronze">Bronze Membership</label>
+                    <label class="radioLabel"><input type="radio" name="silvermembership" value="silver">Silver Membership</label>
+                    <label class="radioLabelLast"><input type="radio" name="gold" value="gold">Gold Membership</label>
+                    <label class="standardLabel">Business description:<textarea name="description" rows="5" cols="50"></textarea></label>
+                    <input type="hidden" id="currenttime" name="currentdate">
+                </fieldset>
+                <input type="submit" value="Apply Now">
+            </form>
+        </div>
+    </main>
+    
+    <footer class="clearfix">
+        <div class="address-1">
+            <div class="address">
+                <div><a href=""><img src="images/logo.webp" alt="SA-DRC Chamber of Commerce logo"></a></div>
+                <div class="add">
+                    <h4>Chamber of Commerce</h4>
+                    <p><i>2nd Floor, West Tower<br>Johannesburg, South Africa</i></p>
+                </div>
+            </div>
+        
+            <div class="contact">
+                <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
+                <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
+                <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p></div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer1">
+            <p>&copy;<span id='year'></span> SA-DRC Chamber of Commerce .:|:. N. Kabemba huguete .:|:. WDD 230 Project .:|:. Last Modification: <span id='lastmod'></span></p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>
+</body>
+</html>

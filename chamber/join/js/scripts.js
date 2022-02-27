@@ -1,4 +1,5 @@
 // current year
+
 const date = new Date();
 let currentYear = date.getFullYear();
 let homeYear = document.querySelector('#year');
@@ -10,16 +11,13 @@ let lastModification = document.lastModified;
 let lastTime = document.getElementById('lastmod');
 lastTime.innerHTML = lastModification;
 
-
+//Menu button
 function toggleMenu() {
 document.querySelector(".primary").classList.toggle("open");
 document.querySelector("#ham").classList.toggle("open");
 }
 const x = document.querySelector("#ham");
 x.onclick = toggleMenu;
-
-
-
 
 //day names array
 const daynames = [
@@ -56,8 +54,4 @@ const year = today.getFullYear();
 
 document.querySelector("date").innerHTML = `<p><strong>${dayName} ${dateNum} ${monthName} ${year}</strong></p>`;
 
-//reminder on Wednesday
-if (today.getDay() == 4) {
-  document.getElementById("banner").style.display = "block";
-}
 
