@@ -94,4 +94,8 @@ localStorage.setItem("visits-ls", numVisits);
   const year = today.getFullYear();
   
   document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
-  
+//reminder on Wednesday
+if (today.getDay() == 2) {
+  document.getElementById("banner").style.display = "block";
+}
+

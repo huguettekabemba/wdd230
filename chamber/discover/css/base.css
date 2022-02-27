@@ -137,13 +137,15 @@ header ul a:hover {
     margin-right: 10px;
     margin-left: 10px;
 }
-#banner {
+/*#banner {
     text-align: center;
     grid-column: 1/4;
     
-}
-#banner.closed{
+}*/
+#banner{
     display: none;
+    text-align: center;
+    background-color:  #faac11;;
 }
 
 /* Main Footer */
