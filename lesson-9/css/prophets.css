@@ -1,0 +1,107 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+main {
+	max-width: 80em;
+	margin: 0 auto;
+}
+header, footer {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #0C406B;
+	color: #ffffff;
+}
+.footerGap {
+	margin-top: 0;
+}
+/* typography */
+h1 {
+	font-size: 40px;
+}
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: #0C406B;	
+}
+p {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color:#ffffff;
+}
+a:hover {
+	color:#000000;
+}
+/* main cards area */
+.cards {
+	margin: 20px;
+	padding: 15px;
+	box-shadow: 0 0 30px #0C406B;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+}
+.cards section {
+	margin: 10px;
+	max-width: 550px;
+	border: 1px solid #000000;
+	box-shadow: 0 0 5px #0C406B;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+	background-color: #e2e9f0;
+}
+.cards h2 {
+	margin: 0;
+}
+.cards p {
+	text-align: center;
+}
+.cards img {
+	width: 100%;
+	box-shadow: 0 0 15px #000000;
+}
+
+
+/* utah born prophets area */
+.utahBorn {
+	display: none;
+	margin: 50px 20px 20px 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	box-shadow: 0 0 30px #0C406B;
+}
+/*only display utah born in large view */
+@media only screen and (min-width: 80em) {
+	.utahBorn {
+		display: block;
+	}
+}
+.utah {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.utah section {
+	width: 8.5em;
+	border: 1px solid #000000;
+	box-shadow: 0 0 5px #0C406B;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	background-color: #e2e9f0;
+}
+.utah img {
+	width: 8em;
+	box-shadow: 0 0 8px #000000;
+}
+.utah h3 {
+	font-size: 12px;
+	text-align: center;
+}

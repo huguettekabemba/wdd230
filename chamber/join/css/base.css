@@ -243,13 +243,28 @@ input[type=number] {
 	display: none;
 }
 
-main div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
+div#info{
+    /*display: block;
+    background-color: #fcb19e;
+    /*width: 700px;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;*/
+    /*align-items: center;
+    justify-content: center;
     margin: 0;
-    padding: 10px;
+    padding: 10px;*/
+
+
+    margin: 0 auto 40px auto;
+    margin-left: -200px;
+    max-width: 700px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin-left: 1px;
+    align-content: center;
+    justify-items: center;
 }
 .infoheader p{
     text-align: center;
