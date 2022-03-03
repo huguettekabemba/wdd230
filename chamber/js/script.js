@@ -60,4 +60,3 @@ document.querySelector("date").innerHTML = `<p><strong>${dayName} ${dateNum} ${m
 if (today.getDay() == 4) {
   document.getElementById("banner").style.display = "block";
 }
-
