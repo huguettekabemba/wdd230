@@ -28,26 +28,5 @@ fetch(requestURL)
         cards.append(card);
     });
 
-
-        //creating a list of all the prophets born in Utah
-        const utah = document.querySelector('.utah');
-
-        const utahfilter = prophets.filter(x => x.birthplace == "Utah");
-
-        utahfilter.forEach(utahprophet => {
-            let card = document.createElement('section');
-            let h3 = document.createElement('h3');
-            let pimg = document.createElement('img');
-            //use templet Literals
-            h3.innerHTML = `${utahprophet.name} ${utahprophet.lastname}`;
-            pimg.setAttribute('src', utahprophet.imageurl);
-            pimg.setAttribute('alt', `Picture of ${utahprophet.name} who was born in ${utahprophet.birthplace} in the year ${utahprophet.birthdate.substring(utahprophet.birthdate.length - 4)}!`)
-            card.append(h3);
-            card.append(pimg);
-            utah.append(card);
-        });
-
-
-
-  });
+});
   
