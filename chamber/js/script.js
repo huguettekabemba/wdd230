@@ -89,16 +89,21 @@ if('IntersectionObserver' in window) {
     });
   }
 
-// Number of visits
-const visitsDisplay = document.querySelector(".visits");
+/*number of visits*/
+const visitsCount = document.querySelector("#visits");
 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
-if (numVisits !== 0) {
-    visitsDisplay.textContent = numVisits;
+// get the stored value in localStorage
+let visits = Number(window.localStorage.getItem("visits-ls"));
+
+// determine if this is the first visit or display the number of visits.
+if (visits !== 0) {
+	visitsCount.textContent = visits;
 } else {
-    visitsDisplay.textContent = `This is your first visit!`;
+	visitsCount.textContent = `This is your first visit!`;
 }
-numVisits++;
-localStorage.setItem("visits-ls", numVisits);
 
-  
+// increment the number of visits.
+visits++;
+// store the new number of visits value
+localStorage.setItem("visits-ls", visits);
+
