@@ -161,7 +161,7 @@ hr {
 /* Join page */
 form fieldset {
 	margin-bottom: 10px;
-	border: 3px solid #34a0f3;
+	border: 1px solid #34a0f3;
 	border-radius: 10px;
 	padding: 10px;
 }
@@ -257,7 +257,7 @@ div#info{
     
 }
 #maincontent{
-    background: #ffff;
+    /*background: #ffff;*/
     margin:10px;
 }
 .infoheader p{
@@ -275,7 +275,7 @@ div#info{
     background-color: #faac11;
 }
 .benefit{
-    border: 1spx solid #34a0f3;
+    border: 1px solid #34a0f3;
     margin: 10px 0 10px 0;
     border-radius: 5px;
     height: 183px;
