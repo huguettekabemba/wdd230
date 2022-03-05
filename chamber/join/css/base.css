@@ -275,9 +275,8 @@ div#info{
     background-color: #faac11;
 }
 .benefit{
-    border: 3px solid #34a0f3;
+    border: 1spx solid #34a0f3;
     margin: 10px 0 10px 0;
-    
     border-radius: 5px;
     height: 183px;
     font-size: 1em;
@@ -306,16 +305,18 @@ h1{
     padding: 10px;
     color: #000;
 }
-/* thanks page */
+/* thanks message*/
 
-#thanks-container h2{
+#thanks-message h1{
     min-height: 70vh;
     padding: 2rem;
     padding-top: 4rem;
     color: #000;
+    text-align: center;
 }
 
-#thanks-container p {
+#thanks-message p {
     font-size: 1.1rem;
     padding: 1rem 0;
+    text-align: center;
 }
