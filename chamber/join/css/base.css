@@ -215,6 +215,11 @@ input[type="submit"] {
     justify-content: center;
     text-align: center;
 }
+#join-form input[type="submit"]:hover {
+    box-shadow: 0 0 1.2rem #f4b42aa6;
+    font-size: 1.1rem;
+}
+
 /* change placeholder color*/
 ::-webkit-input-placeholder { 
 	color: #888888;
@@ -300,4 +305,17 @@ h1{
     border-radius: 5px;
     padding: 10px;
     color: #000;
+}
+/* thanks page */
+
+#thanks-container h2{
+    min-height: 70vh;
+    padding: 2rem;
+    padding-top: 4rem;
+    color: #000;
+}
+
+#thanks-container p {
+    font-size: 1.1rem;
+    padding: 1rem 0;
 }
