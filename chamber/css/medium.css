@@ -116,6 +116,27 @@
         
     }
 
-    
-    
+    /*Directory Page*/
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 25px 15px;
+  }
+  .card address {
+    padding: 0 45px;
+    margin-bottom: -15px;
+  }
+
+  .card p {
+    font-size: 1.3rem;
+    margin-bottom: -4px;
+  }
+
+  .list tr {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    width: 100%;
+    justify-items: center;
+  }   
 }

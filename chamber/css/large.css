@@ -131,4 +131,26 @@
         margin: 10px;
         
     }
+    /*Directory Page*/
+
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 50px 50px;
+  }
+
+  .card address {
+    font-size: 1.4rem;
+  }
+
+  .card p {
+    margin-bottom: 1px;
+  }
+
+  .list tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
