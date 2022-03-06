@@ -100,7 +100,7 @@
     }
     /*Gallery section*/
 
-    .sun:hover{border-radius: 50px 400px 50px 400px;}
+    .sun img:hover{border-radius: 50px 400px 50px 400px;}
     .humankind img:hover{box-shadow: 0 0 50px #333;}
     .voortrekker img:hover{opacity: .5;}
     .park img:hover{filter: blur(1px) grayscale(75%);}
