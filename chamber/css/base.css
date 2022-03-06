@@ -502,120 +502,49 @@ h1{
 
 /*Directory Page*/
 
-.cards {
-    margin: 10px 0 40px 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: rgb(255, 255, 255);
-    grid-gap: 5px;
-    padding: 25px 5px;
-    
-    text-align: center; 
+.company_logo {
+    max-width: 100px;
+    max-height: 100px;
 }
-.business{
+section {
+    background-color: #FEFCFB;
+    color: #89043D;
     text-align: center;
-    margin-top: 40px;
+    margin: 10px;
+    width: 300px;
+    justify-self: center;
 }
-.card{
-    margin: 15px;
-
-    padding: 0;
-    background-color: #ffffff;
-    box-shadow: 0 3px 8px 10px #f1f1f1;
-    border-radius: 2px;
-    padding: 20px 0;
+#cards {
+    justify-self: center;
 }
 
-.card address{
-    color: #012A4A;
-    font-size: 1.6rem;
-    padding: 0 30px;
-    margin-bottom: -15px;
+.null {display: none;}
+
+.list li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.list :nth-child(even) {
+    background-color: rgba(0,0,0,0.2);
+}
+.list :nth-child(odd) {
+    background-color: rgba(0,0,0,0.1);
 }
 
-
-.card p{
-    color: #012A4A;
-    font-size: 1.4rem;
-    margin-bottom: 1px;
-    
+.list {
+    list-style: none;
+    justify-self: center;
+    max-width: 90%;
 }
-.card a{
-    font-size: 1.4rem;
-    
+.listview :nth-child(2){
+  display: none;
 }
-
-.card img{
-    width: 30%;
-    padding-bottom: 15px;
-    border-radius: 2px;
-    
-    
+.cardview :nth-child(1){
+    display: none;
 }
-
-.list   {
-    margin: 10px 0 40px 0;
-    display: block;
-    background-color: rgb(255, 255, 255);
-    padding: 25px 25px;
-    
-}
-
-
-.list tr:nth-child(odd) {
-    background-color: #A9D6E5;
-}
-
-.list td {
-    color: #012A4A;
-    padding: 15px 10px;
-
-}
-.list tr .name{
-    
-    margin-bottom: -20px;
-
-}
-.list tr .list-address{
-    font-size: 1.6rem;
-    margin-bottom: -25px;
-
-}
-
-.list tr .list-number{
-    font-size: 1.6rem;
-    margin-bottom: -36px;
-
-    
-}
-
-.list tr{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding: 15px 0 15px 0;
-    border-radius: 3px;
-}
-
-#address{
-    padding: 0 5px;
-    
-}
-.switch{
-    text-align: center;
-    margin-top: 40px;
-
-}
-.switch button{
-    border: 2px solid #012A4A;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 3px;
-    color: #012A4A;
-    font-size: 1.1rem;
-}
-
-.switch button:hover{
-    background-color: #A9D6E5;
+#view {
+    font-size: x-large;
+    margin-top: 10px;
+    width: min-content;
+    justify-self: center;
 }
