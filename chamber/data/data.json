@@ -1,14 +1,14 @@
 {
     "directory": [
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/sicon_logo_smaller-1.png",
+            "imageurl": "images/sicon_logo_smaller-1.png",
             "name": "Scion Technologies",
             "address": "145 church st, Sub-Saharan Africa",
             "phone": "(+278)2 572 7703",
             "site": "https://www.sciontechnologies.co.za/"
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/liberty.png",
+            "imageurl": "images/liberty.png",
             "name": "Liberti In it with you",
             "address": "3rd Floor, Liberty Building, Century Blvd, Century City, Cape Town, 7441",
             "phone": "(+278)60 456 789",
@@ -16,7 +16,7 @@
             
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/congoequipement.jpg",
+            "imageurl": "images/congoequipement.jpg",
             "name": "Congo Equipement Cat",
             "address": "66, Route Kinsevere,C/ Annexe Lubumbashi DRC",
             "phone": "(+243) 82 500 31 50",
@@ -24,7 +24,7 @@
             
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/connexafrica.png",
+            "imageurl": "images/connexafrica.png",
             "name": "Connex Africa",
             "address": "3806 Central Plaza,18 Harbour Road, Hong-Kong",
             "phone": "(+243)971 022 112",
@@ -32,7 +32,7 @@
            
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/drc_mining-week_logo.jpg",
+            "imageurl": "images/drc_mining-week_logo.jpg",
             "name": "DRC Mining Weeek",
             "address": "Pullman Grand Karavia in Lubumbashi, DRC.",
             "phone": "(+243) 995 555 058",
@@ -40,21 +40,21 @@
             
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/ecobank.jpg",
+            "imageurl": "images/ecobank.jpg",
             "name": "Ecobank",
             "address": "2365, Boulevard du Mono, Rwanda",
             "phone": "(+250) 788 161 000",
             "site": "https://ecobank.com/"
             
         },
-        {   "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/dfc.jpg",
+        {   "imageurl": "images/dfc.jpg",
             "name": "U.S.International Development Finance Corporation",
             "address": "32 Lincoln Road Benoni South, South Africa",
             "phone": "+27 10 300 4900",
             "site": "https://dfc.co.za/"
             
         },
-        {   "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/copperbelt.png",
+        {   "imageurl": "images/copperbelt.png",
             "name": "CecIvestor",
             "address": "2374 on Kelvin Siwale Road, Lusaka, Zambia",
             "phone": "(+260)212 244956",
@@ -62,7 +62,7 @@
             
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/ubs.png",
+            "imageurl": "images/ubs.png",
             "name": "UBS South Africa",
             "address": " Johannesburg 144 Oxford Road, Johannesburg 2196",
             "phone": "(+271) 132 270 00",
@@ -70,14 +70,14 @@
             
         },
         {   
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/ivanhoe.jpg",
+            "imageurl": "images/ivanhoe.jpg",
             "name": "Ivanhoemines New Horizons",
             "address": "82 Maude Street Sandton South Africa, 2146",
             "phone": "(+271)088 43 00",
             "site": " https://www.ivanhoemines.com/"
             
         },
-        {   "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/mukuru.png",
+        {   "imageurl": "images/mukuru.png",
             "name": "Mukuru",
             "address": "269 President Paul Kruger Avenue Universitas Bloemfontein,South Africa",
             "phone": "(+278)600 185 55",
@@ -85,7 +85,7 @@
             
         },
         {
-            "imageurl": "https://github.com/huguettekabemba/wdd230/blob/main/chamber/images/mrd.png",
+            "imageurl": "images/mrd.png",
             "name": "Mrd Food",
             "address": " 129 Exchange St., Aberdeen  Aberdeen NC 28315",
             "phone": "4330 165 400.",

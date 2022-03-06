@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Milonga&family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Milonga&family=Roboto&display=swap');
 #content {
     margin: 0;
     padding: 0;
@@ -8,10 +8,9 @@
     font-size: 18px;
 }
 
-
 /*Header*/
 
-h1,h2,h3,h4,h5,h6 {
+/*h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto', serif;
     color:#fff;
 }
@@ -143,7 +142,7 @@ header ul a:hover {
 
 /* Main Section */
 
-.maincontent{
+/*.maincontent{
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: minmax(300px, auto);
@@ -162,7 +161,7 @@ header ul a:hover {
     
 }
 /*banner section*/
-.heropic {
+/*.heropic {
     position: relative;
     margin: 0 10px 0 10px;
     z-index: 0;
@@ -265,7 +264,7 @@ main picture.hero-image{
 
 /* Main Footer */
 
-footer {
+/*footer {
     justify-items: center;
     background-color: #0a5200;
     color: #fff;
@@ -285,12 +284,12 @@ hr {
 
 /*discover gallery*/
 
-#content-discover{
+/*main.maincontent{
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;  
 }
-#discoverGallery{
+#gallery{
     display: grid;
     grid-template-columns: 600px;
     align-items: center;
@@ -333,224 +332,3 @@ main h1{
 .drakensberg img{
     border-radius: 10px 10px 0 0;
 }
-
-/* Join page */
-form fieldset {
-	margin-bottom: 10px;
-	border: 1px solid #34a0f3;
-	border-radius: 10px;
-	padding: 10px;
-    text-align: left;
-}
-form legend {
-	margin: 0 5px;
-	padding: 0 10px;
-}
-form label {
-	display: block;
-}
-.standardLabel {
-	padding: 5px;
-}
-
-.radioLabel {
-	padding: 5px 10px 5px 15px;
-}
-
-.standardInput {
-	display: block;
-	padding: 10px;
-	margin-top: 2px;
-	border: solid .5px #000000;
-	border-radius: 4px;
-	color: #000000;
-	box-sizing: border-box;
-	width: 100%;
-}
-.textArea {
-	min-height: 100px; 
-    resize: none;
-}
-input:required {
-	border-left: #f2be54 solid 6px;
-	background-color: rgba(242, 190, 84, 0.2);
-}
-input:required:valid {
-	border-left: #000000 solid 6px;
-	background-color: #ffffff;
-}
-input[type="submit"] {
-	border: none;
-    font-weight: bold;
-    background-color: #faac11;
-    color: #000000;
-    border-radius: 10px;
-	padding: 15px 20px 15px 20px;
-	margin-left: 25px;
-	margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-#join-form input[type="submit"]:hover {
-    box-shadow: 0 0 1.2rem #f4b42aa6;
-    font-size: 1.1rem;
-}
-
-/* change placeholder color*/
-::-webkit-input-placeholder { 
-	color: #888888;
-  }
-::-moz-placeholder { 
-	color: #888888;
-  }
-:-ms-input-placeholder { 
-	color: #888888;
-  }
-:-moz-placeholder { 
-	color: #888888;
-  }
-
-
-/* hidden arrows on num input for Chrome, Safari, Edge, Opera*/
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-/* hidden arrows on num input for Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
-.reportStormImg {
-	display: none;
-}
-
-div#info{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    margin: 10px;
-    
-}
-#maincontent-discover{
-    /*background: #ffff;*/
-    margin:10px;
-}
-.infoheader p{
-    text-align: center;
-    padding: 10px;
-}
-.infoheader h2{
-    color: #faac11;
-    text-align: center;
-}
-
-#banner{
-    display: none;
-    text-align: center;
-    background-color: #faac11;
-}
-.benefit{
-    border: 1px solid #34a0f3;
-    margin: 10px 0 10px 0;
-    border-radius: 5px;
-    height: 183px;
-    font-size: 1em;
-    text-align: center;
-    padding: 5px;
-}
-h3{
-    color: #faac11;
-    text-align: center;
-}
-h1,h2{
-    color: #000000;
-    text-align: center;
-}
-h1{
-    margin: 10px;
-    padding: 10px;
-}
-#benefit-container{
-    margin: 10px 0 0 0;
-}
-.contactjoin, .member{
-    border: 1px solid white;
-    background-color: #faac11;
-    border-radius: 5px;
-    padding: 10px;
-    color: #000;
-}
-/* thanks message*/
-
-#thanks-message h1{
-    min-height: 70vh;
-    padding: 2rem;
-    padding-top: 4rem;
-    color: #000;
-    text-align: center;
-}
-
-#thanks-message p {
-    font-size: 1.1rem;
-    /*padding:-1000px 0 0 0;*/
-    text-align: center;
-    margin: -400px 0 100px 0;
-    font-size: 1.3em;
-}
-
-/*Directory Page*/
-
-.company_logo {
-    max-width: 100px;
-    max-height: 100px;
-}
-section {
-    background-color: #FEFCFB;
-    color: #89043D;
-    text-align: center;
-    margin: 10px;
-    width: 300px;
-    justify-self: center;
-}
-#cards {
-    justify-self: center;
-}
-
-.null {display: none;}
-
-.list li {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.list :nth-child(even) {
-    background-color: rgba(0,0,0,0.2);
-}
-.list :nth-child(odd) {
-    background-color: rgba(0,0,0,0.1);
-}
-
-.list {
-    list-style: none;
-    justify-self: center;
-    max-width: 90%;
-}
-.listview :nth-child(2){
-  display: none;
-}
-.cardview :nth-child(1){
-    display: none;
-}
-#view {
-    font-size: x-large;
-    margin-top: 10px;
-    width: min-content;
-    justify-self: center;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: 325px 325px;
-    padding: -20px;
-    }

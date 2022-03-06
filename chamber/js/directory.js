@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/huguettekabemba/wdd230/blob/main/chamber/data/data.json';
+const requestURL = 'https://huguettekabemba.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('#cards');
 const list = document.querySelector('#list');
 

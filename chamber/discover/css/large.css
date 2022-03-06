@@ -1,4 +1,4 @@
-@media only screen and (min-width: 67.5em) {
+/*@media only screen and (min-width: 67.5em) {
     header {
         grid-template-columns: 40% auto 100px;
         padding: 10px 0 10px 10px;
@@ -45,7 +45,7 @@
     }
     
     /* the main section */
-    .maincontent {
+    /*.maincontent {
         margin: 10px auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -54,7 +54,7 @@
         background-color: transparent;
         padding: 10px;
         /*max-width: 1080px;*/
-    }
+   /* }
     .maincontent>div {
         padding: 20px 5px;
     }
@@ -100,7 +100,7 @@
     }
     /*Gallery section*/
 
-    .sun img:hover{border-radius: 50px 400px 50px 400px;}
+   /* .sun img:hover{border-radius: 50px 400px 50px 400px;}
     .humankind img:hover{box-shadow: 0 0 50px #333;}
     .voortrekker img:hover{opacity: .5;}
     .park img:hover{filter: blur(1px) grayscale(75%);}
@@ -114,33 +114,4 @@
     .drakensberg img:hover{opacity: .5;}
 
 
-    /*Join page*/
-    .cards {
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 5px;
-        padding: 50px 50px;
-      }
-    
-      .card address {
-        font-size: 1.4rem;
-      }
-    
-      .card p {
-        margin-bottom: 1px;
-      }
-    
-      .list tr {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-      }
-    /*directory*/
-      .cards {
-        display: grid;
-        grid-template-columns: 325px 325px 325px 325px;
-    }
-
-    .null {display: none;}
-    
 }
