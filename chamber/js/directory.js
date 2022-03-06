@@ -7,9 +7,9 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-      const companies = jsonObject['companies'];
-      companies.forEach(displayCards);
-      companies.forEach(displayList);
+      const directory = jsonObject['directory'];
+      directory.forEach(displayCards);
+      directory.forEach(displayList);
   });
 
 function displayCards(company) {
@@ -19,7 +19,7 @@ function displayCards(company) {
     let phone = document.createElement('p');
     let site = document.createElement('p');
 
-    logo.setAttribute('src', company.logourl);
+    logo.setAttribute('src', company.imageurl);
     logo.setAttribute('class', 'company_logo')
 
     address.textContent = company.address;

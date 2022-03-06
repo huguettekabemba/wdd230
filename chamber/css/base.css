@@ -548,3 +548,9 @@ section {
     width: min-content;
     justify-self: center;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 325px 325px;
+    padding: -20px;
+    }
