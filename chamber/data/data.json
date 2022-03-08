@@ -1,9 +1,9 @@
 {
     "directory": [
         {   
-            "imageurl": "images/scion_logo_smaller-1.png",
+            "imageurl": "images/scion.png",
             "name": "Scion Technologies",
-            "address": "145 church st, Sub-Saharan Africa",
+            "address": "145 church st,Sub-Saharan Africa",
             "phone": "(+278)2 572 7703",
             "site": "https://www.sciontechnologies.co.za/"
         },
@@ -47,14 +47,15 @@
             "site": "https://ecobank.com/"
             
         },
-        {   "imageurl": "images/dfc.jpg",
+        {   
+            "imageurl": "images/dfc.png",
             "name": "U.S.International Development Finance Corporation",
             "address": "32 Lincoln Road Benoni South, South Africa",
             "phone": "+27 10 300 4900",
             "site": "https://dfc.co.za/"
-            
         },
-        {   "imageurl": "images/copperbelt.png",
+        {   
+            "imageurl": "images/copperbelt.png",
             "name": "CecIvestor",
             "address": "2374 on Kelvin Siwale Road, Lusaka, Zambia",
             "phone": "(+260)212 244956",

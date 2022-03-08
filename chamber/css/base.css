@@ -284,6 +284,12 @@ hr {
 }
 
 /*discover gallery*/
+.visits {
+    background-color: #fff;
+    justify-self: center;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
 
 .maincontentdiscover{
     display: grid;
