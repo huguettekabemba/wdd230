@@ -30,7 +30,8 @@ document.querySelector(".date").innerHTML = days[currentDate.getDay()] + ", " + 
 
 
 //reminder on Wednesday
-if (today.getDay() == 4) {
+let today = new Date();
+if (today.getDay() == 2) {
   document.getElementById("banner").style.display = "block";
 }
 

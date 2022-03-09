@@ -136,26 +136,15 @@
         justify-content: space-evenly;
       }
     /*directory*/
-    /*.cards {
+    .cards {
         display: grid;
         grid-template-columns: 325px 325px 325px 325px;
     }
-    .null {display: none;}*/
+    .null {display: none;}
 
 
 
 
-    .card-list{
-        display: grid;
-        grid-template-columns: 20% 25% 15% 40%;
-        grid-column-gap: 1rem;
-      }
-    
-      .list .card-medal-link{
-        position: absolute;
-        top: .5rem;
-        right: .5rem;
-      }
     
     
 }

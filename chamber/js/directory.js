@@ -1,10 +1,10 @@
-//const requestURL = 'https://huguettekabemba.github.io/wdd230/chamber/data/data.json';
-//const cards = document.querySelector('#cards');
-//const list = document.querySelector('#list');
+const requestURL = 'https://huguettekabemba.github.io/wdd230/chamber/data/data.json';
+const cards = document.querySelector('#cards');
+const list = document.querySelector('#list');
 
-//fetch(requestURL)
-//  .then(function (response) {
-/*    return response.json();
+fetch(requestURL)
+ .then(function (response) {
+    return response.json();
   })
   .then(function (jsonObject) {
       const directory = jsonObject['directory'];
@@ -65,9 +65,10 @@ function swapView() {
         document.querySelector('#view').classList.add('listview');
         document.querySelector('#view').classList.remove('cardview');
     }
-}*/
+}
 
-const requestURL = 'https://huguettekabemba.github.io/wdd230/chamber/data/data.json';
+
+/*const requestURL = 'https://huguettekabemba.github.io/wdd230/chamber/data/data.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -87,10 +88,10 @@ function displayBusiness(business) {
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
-  let webText = document.createElement("p");
+  /*let webText = document.createElement("p");*/
 
   // Set values for image logo
-  imageLogo.setAttribute("src", business.imageurl);
+  /*imageLogo.setAttribute("src", business.imageurl);
   imageLogo.setAttribute("alt", `${business.name} logo`);
   imageLogo.setAttribute("loading", "lazy");
   imageLogo.classList.add("card-logo");
@@ -106,10 +107,10 @@ function displayBusiness(business) {
   website.title = business.name;
   website.href = business.website;
   website.target = "_blank";
-  webText.appendChild(website);
+  /*webText.appendChild(website);*/
 
   // Add elements to card
-  card.appendChild(imageLogo);
+  /*card.appendChild(imageLogo);
   card.appendChild(name);
   card.appendChild(address);
   card.appendChild(phone);
@@ -174,4 +175,4 @@ function loadSettings() {
 
 // Add events
 document.querySelector(".list-view-button").addEventListener("click", listView);
-document.querySelector(".grid-view-button").addEventListener("click", gridView);
+document.querySelector(".grid-view-button").addEventListener("click", gridView);*/

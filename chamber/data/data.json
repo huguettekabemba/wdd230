@@ -1,18 +1,18 @@
 {
-    "business": [
+    "directory": [
         {   
             "imageurl": "images/scion.webp",
             "name": "Scion Technologies",
             "address": "145 church st,Sub-Saharan Africa",
             "phone": "(+278)2 572 7703",
-            "website": "https://www.sciontechnologies.co.za/"
+            "site": "https://www.sciontechnologies.co.za/"
         },
         {   
             "imageurl": "images/liberty.webp",
             "name": "Liberti In it with you",
             "address": "3rd Floor, Liberty Building, Century Blvd, Century City, Cape Town, 7441",
             "phone": "(+278)60 456 789",
-            "website": "https://www.liberty.co.za/"
+            "site": "https://www.liberty.co.za/"
             
         },
         {   
@@ -20,7 +20,7 @@
             "name": "Congo Equipement Cat",
             "address": "66, Route Kinsevere,C/ Annexe Lubumbashi DRC",
             "phone": "(+243) 82 500 31 50",
-            "website": "https://www.congo-equipment.com/"
+            "site": "https://www.congo-equipment.com/"
             
         },
         {   
@@ -28,7 +28,7 @@
             "name": "Connex Africa",
             "address": "3806 Central Plaza,18 Harbour Road, Hong-Kong",
             "phone": "(+243)971 022 112",
-            "website": "https://www.connexafrica.com/"
+            "site": "https://www.connexafrica.com/"
            
         },
         {   
@@ -36,7 +36,7 @@
             "name": "DRC Mining Weeek",
             "address": "Pullman Grand Karavia in Lubumbashi, DRC.",
             "phone": "(+243) 995 555 058",
-            "website": "https://www.drcminingweek.com/"
+            "site": "https://www.drcminingweek.com/"
             
         },
         {   
@@ -44,7 +44,7 @@
             "name": "Ecobank",
             "address": "2365, Boulevard du Mono, Rwanda",
             "phone": "(+250) 788 161 000",
-            "website": "https://ecobank.com/"
+            "site": "https://ecobank.com/"
             
         },
         {   
@@ -52,14 +52,14 @@
             "name": "U.S.International Development Finance Corporation",
             "address": "32 Lincoln Road Benoni South, South Africa",
             "phone": "+27 10 300 4900",
-            "website": "https://dfc.co.za/"
+            "site": "https://dfc.co.za/"
         },
         {   
             "imageurl": "images/copperbelt.webp",
             "name": "CecIvestor",
             "address": "2374 on Kelvin Siwale Road, Lusaka, Zambia",
             "phone": "(+260)212 244956",
-            "website": "https://cecinvestor.com/"
+            "site": "https://cecinvestor.com/"
             
         },
         {   
@@ -67,7 +67,7 @@
             "name": "UBS South Africa",
             "address": " Johannesburg 144 Oxford Road, Johannesburg 2196",
             "phone": "(+271) 132 270 00",
-            "website": "https://www.ubs.com/"
+            "site": "https://www.ubs.com/"
             
         },
         {   
@@ -75,14 +75,14 @@
             "name": "Ivanhoemines New Horizons",
             "address": "82 Maude Street Sandton South Africa, 2146",
             "phone": "(+271)088 43 00",
-            "website": " https://www.ivanhoemines.com/"
+            "site": " https://www.ivanhoemines.com/"
             
         },
         {   "imageurl": "images/mukuru.webp",
             "name": "Mukuru",
             "address": "269 President Paul Kruger Avenue Universitas Bloemfontein,South Africa",
             "phone": "(+278)600 185 55",
-            "website": "https://www.mukuru.com/"
+            "site": "https://www.mukuru.com/"
             
         },
         {
@@ -90,7 +90,7 @@
             "name": "Mrd Food",
             "address": " 129 Exchange St., Aberdeen  Aberdeen NC 28315",
             "phone": "4330 165 400.",
-            "website": "https://www.mrdfood.com/"
+            "site": "https://www.mrdfood.com/"
             
         }
     ]
