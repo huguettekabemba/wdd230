@@ -67,7 +67,7 @@ function swapView() {
     }
 }*/
 
-const requestURL = "data/data.json";
+const requestURL = 'https://huguettekabemba.github.io/wdd230/chamber/data/data.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -83,8 +83,6 @@ function displayBusiness(business) {
   // Create elements to add to the document
   let card = document.createElement("section");
   let imageLogo = document.createElement("img");
-  let imageMember = document.createElement("img");
-  let memberLink = document.createElement("a");
   let name = document.createElement("p");
   let address = document.createElement("p");
   let phone = document.createElement("p");
@@ -96,19 +94,6 @@ function displayBusiness(business) {
   imageLogo.setAttribute("alt", `${business.name} logo`);
   imageLogo.setAttribute("loading", "lazy");
   imageLogo.classList.add("card-logo");
-
-  // Set values for the Medal Icon
-  imageMember.setAttribute(
-    "src",
-    `images/${String(business.membership).toLowerCase()}.webp`
-  );
-  imageMember.setAttribute("alt", `${business.membership} Member logo`);
-  imageMember.setAttribute("loading", "lazy");
-  imageMember.classList.add("card-medal");
-  memberLink.href = "join.html";
-  memberLink.title = "View Membership Details";
-  memberLink.classList.add("card-medal-link");
-  memberLink.appendChild(imageMember);
 
   // Name, address, phone #
   name.textContent = business.name;
@@ -128,18 +113,9 @@ function displayBusiness(business) {
   card.appendChild(name);
   card.appendChild(address);
   card.appendChild(phone);
-  if (
-    business.membership.toLowerCase() == "gold" ||
-    business.membership.toLowerCase() == "silver"
-  ) {
-    card.appendChild(memberLink);
-  }
-  card.appendChild(webText);
-  card.classList.add("card");
 
-  // Add card to business cards
-  document.querySelector("div.business-cards").appendChild(card);
 }
+  
 
 // List view button click
 function listView() {
