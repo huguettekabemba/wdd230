@@ -68,7 +68,6 @@ function swapView() {
 }*/
 
 const requestURL = "https://huguettekabemba.github.io/wdd230/chamber/data/data.json";
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
