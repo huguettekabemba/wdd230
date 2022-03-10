@@ -10,7 +10,7 @@
         {   
             "imageurl": "images/liberty.webp",
             "name": "Liberti In it with you",
-            "address": "3rd Floor, Liberty Building, Century Blvd, Century City, Cape Town, 7441",
+            "address": "7441, 3rd Floor, Liberty Building, Century Blvd, Century City, Cape Town",
             "phone": "(+278)60 456 789",
             "site": "https://www.liberty.co.za/"
             
@@ -34,7 +34,7 @@
         {   
             "imageurl": "images/drc_mining-week_logo.webp",
             "name": "DRC Mining Weeek",
-            "address": "Pullman Grand Karavia in Lubumbashi, DRC.",
+            "address": "27, Pullman Grand Karavia in Lubumbashi, DRC.",
             "phone": "(+243) 995 555 058",
             "site": "https://www.drcminingweek.com/"
             
@@ -50,14 +50,14 @@
         {   
             "imageurl": "images/dfc.webp",
             "name": "U.S.International Development Finance Corporation",
-            "address": "32 Lincoln Road Benoni South, South Africa",
+            "address": "32, Lincoln Road Benoni South, South Africa",
             "phone": "+27 10 300 4900",
             "site": "https://dfc.co.za/"
         },
         {   
             "imageurl": "images/copperbelt.webp",
             "name": "CecIvestor",
-            "address": "2374 on Kelvin Siwale Road, Lusaka, Zambia",
+            "address": "2374, on Kelvin Siwale Road, Lusaka, Zambia",
             "phone": "(+260)212 244956",
             "site": "https://cecinvestor.com/"
             
@@ -65,7 +65,7 @@
         {   
             "imageurl": "images/ubs.webp",
             "name": "UBS South Africa",
-            "address": " Johannesburg 144 Oxford Road, Johannesburg 2196",
+            "address": "144, Oxford Road, Johannesburg",
             "phone": "(+271) 132 270 00",
             "site": "https://www.ubs.com/"
             
@@ -80,7 +80,7 @@
         },
         {   "imageurl": "images/mukuru.webp",
             "name": "Mukuru",
-            "address": "269 President Paul Kruger Avenue Universitas Bloemfontein,South Africa",
+            "address": "269, President Paul Kruger Avenue Universitas Bloemfontein,South Africa",
             "phone": "(+278)600 185 55",
             "site": "https://www.mukuru.com/"
             
@@ -88,7 +88,7 @@
         {
             "imageurl": "images/mrd.webp",
             "name": "Mrd Food",
-            "address": " 129 Exchange St., Aberdeen  Aberdeen NC 28315",
+            "address": " 129, Exchange St., Aberdeen  Aberdeen NC 28315",
             "phone": "4330 165 400.",
             "site": "https://www.mrdfood.com/"
             
