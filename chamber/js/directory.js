@@ -17,7 +17,7 @@ function displayCards(company) {
     let logo = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
-    let site = document.createElement('p');
+    let site = document.createElement('a');
 
     logo.setAttribute('src', company.imageurl);
     logo.setAttribute('class', 'company_logo')
