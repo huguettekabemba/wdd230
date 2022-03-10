@@ -138,13 +138,10 @@
     /*directory*/
     .cards {
         display: grid;
-        grid-template-columns: 325px 325px 325px 325px;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*grid-template-columns: 433.32px 433.33px 433.33px;*/
+        /*margin: 0 -50px 0 -50px;
+        padding: 10px 10px 10px -100px;*/
     }
-    .null {display: none;}
-
-
-
-
-    
-    
+    .null {display: none;}  
 }

@@ -516,8 +516,18 @@ h1{
 }
 
 /*Directory Page*/
+body{
+    background:#cedeeb;
+}
+#directory{
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    justify-self: center;
+    margin: 10px 20px 0 0;
+}
 
-/*.company_logo {
+.company_logo {
     max-width: 100px;
     max-height: 100px;
 }
@@ -529,18 +539,33 @@ section {
     width: 300px;
     justify-self: center;
 }
+main{
+    background: #34a0f3;
+    
+}
 #cards {
     justify-self: center;
+    margin: 0 30px 0 30px;
+    padding: 10px 0 30px 0px; 
+    color: #000; 
 }
 
 .null {display: none;}
 
 .list li {
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  
 }
 .list :nth-child(even) {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(170, 169, 169, 0.2);
 }
 .list :nth-child(odd) {
     background-color: rgba(0,0,0,0.1);
@@ -563,13 +588,6 @@ section {
     width: min-content;
     justify-self: center;
 }
-
-.cards {
-    display: grid;
-    /**grid-template-columns: 325px 325px;
-    padding: -20px;*/
-   /* grid-template-columns: 1fr 1fr 1fr;
-}*/
 
 
   
