@@ -122,8 +122,28 @@
         display: grid;
         /*grid-template-columns: 325px 325px 325px 325px;*/
         grid-template-columns: 1fr 1fr;
-        margin: 0 -50px 0 -50px;
+        /*margin: 0 -50px 0 -50px;
         padding: 10px 10px 10px -100px;
+        justify-self: center;*/
+
+        margin: 10px 10px 10px 10px;
+        padding: 0 -120px 0 -20px;
+        justify-self: center;
+    }
+
+    section {
+        background-color: #FEFCFB;
+        color: #000000;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+        padding-top: 10px;
+        width: 290px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-top: 20px;
+        justify-self: center;
+    
     }
     .null {display: none;}  
 }
