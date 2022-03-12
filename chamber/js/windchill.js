@@ -35,5 +35,5 @@ fetch(apiURL)
     document.querySelector("#iconweather").setAttribute("alt", desc);
     document.querySelector("#icon-desc").textContent = desc;
 
-    chills(jsObject.main.temp, jsObject.wind.speed);
+    const chills = chills(jsObject.main.temp, jsObject.wind.speed);
   });
