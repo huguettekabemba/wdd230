@@ -17,3 +17,23 @@ function windchill() {
 }
 
 windchill();
+
+
+const apiURL =
+  "https://api.openweathermap.org/data/2.5/weather?q=johannesburg&units=metric&appid=";
+
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    document.querySelector("#temp").textContent = jsObject.main.temp;
+    document.querySelector("#speed").textContent = jsObject.wind.speed;
+
+    const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const desc = jsObject.weather[0].description;
+
+    document.querySelector("#icon").setAttribute("src", iconsrc);
+    document.querySelector("#icon").setAttribute("alt", desc);
+    document.querySelector("#icon-desc").textContent = desc;
+
+    chills(jsObject.main.temp, jsObject.wind.speed);
+  });
