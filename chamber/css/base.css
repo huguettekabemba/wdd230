@@ -87,6 +87,7 @@ div.logo-container h4{
 
 nav ul {
     display: none;
+    margin: 0 -50px 0 0;
 }
 
 nav.open ul {
@@ -95,12 +96,13 @@ nav.open ul {
     padding: 0;
     background-color:  #0a5200;
     position: fixed;
-    margin: 0;
+    margin: -20px 0 10px 0;
     top: 138px;
-    left: 0;
+    left: 10px;
     width: 100%;
     height: inherit;
     text-align: center;
+    z-index: 1;
 }
 
 header ul a {
@@ -152,7 +154,7 @@ div.date{
 .maincontent{
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(260px, auto);
     grid-gap: 5px;
     background-color: transparent;
     padding: 10px;
@@ -162,10 +164,8 @@ div.date{
 }
 
 .maincontent>div{
-    /*background-color: #34a0f3;*/
     color: white;
     font-size: 1.2rem;
-    
 }
 /*banner section*/
 .heropic {
@@ -199,8 +199,8 @@ div.date{
     
 }
 .weather h5{
-    font-size: 1.2em;
-    margin-top: -20px;
+    font-size: 1em;
+    margin-top: 10px;
     padding:10px;
     color: #000;
 }
@@ -223,7 +223,7 @@ div.icon p{
 }
 .condition{
     margin: -40px 0 -80px 0;
-    padding: -40px 0 -20px 0;
+    padding: -40px 0 30px 0;
 }
 div.icon img{
     width: 35%;
