@@ -162,7 +162,7 @@ div.date{
 }
 
 .maincontent>div{
-    background-color: #34a0f3;
+    /*background-color: #34a0f3;*/
     color: white;
     font-size: 1.2rem;
     
@@ -189,6 +189,7 @@ div.date{
 .event {
     grid-row: 2;
     padding: 10px;
+    background-color: #34a0f3;
 }
 
 .weather {
@@ -198,6 +199,7 @@ div.date{
     padding: 0 0 -20px 0;
     margin: 0;
     line-height: 0.5em;
+    background-color: #34a0f3;
 }
 .weather h5{
     font-size: 1.2em;
@@ -208,13 +210,13 @@ div.date{
 div.icon{
     display: flex;
     padding: 10px;
-    margin-top: -40px;
+    margin-top: 0px;
     align-items: center;
     justify-content: center;
 }
 div.icon p{
-    margin: 30px 0 0 10px;
-    font-size: 1.5em;
+    margin: -10px 0 0 -5px;
+    font-size: 1.2em;
 }
 div.icon img{
     width: 35%;
@@ -226,11 +228,13 @@ div.icon img{
 .join {
     display: none;
     padding: 10px;
+    background-color: #34a0f3;
 }
 
 .hero {
     grid-row: 1;
     padding: 10px;
+    background-color: #34a0f3;
 }
 .hero h2{
     position: relative;
@@ -247,6 +251,7 @@ main picture.hero-image{
 .new {
     grid-row: 4;
     padding: 10px;
+    background-color: #34a0f3;
 }
 .new h4, .spot h4, .hero h1, .weather h4, .event h4{
     color:#000;
@@ -258,6 +263,7 @@ main picture.hero-image{
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
     padding: 30px;
+    background-color: #34a0f3;
 }
 
 .spot div:nth-child(3) {
@@ -544,7 +550,7 @@ section {
 
 }
 main{
-    background: #34a0f3;
+    /*background: #34a0f3;*/
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     
