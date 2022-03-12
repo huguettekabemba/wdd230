@@ -152,7 +152,7 @@ div.date{
 .maincontent{
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: minmax(300px, auto);
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 5px;
     background-color: transparent;
     padding: 10px;
@@ -194,30 +194,36 @@ div.date{
 
 .weather {
     grid-row: 3;
-    padding: 10px;
     text-align: center;
-    padding: 0 0 -20px 0;
-    margin: 0;
-    line-height: 0.5em;
     background-color: #34a0f3;
+    
 }
 .weather h5{
     font-size: 1.2em;
-    margin-top: 10px;
+    margin-top: -20px;
     padding:10px;
     color: #000;
+}
+.weathersource a{
+    color: #f8c62f;
+    text-decoration: dashed;
+    font-size: 22px;
 }
 div.icon{
     display: flex;
     padding: 10px;
-    margin-top: 0px;
+    margin-top:-65px;
     align-items: center;
     justify-content: center;
 }
 div.icon p{
     margin: -10px 0 0 -5px;
-    font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+.condition{
+    margin: -40px 0 -80px 0;
+    padding: -40px 0 -20px 0;
 }
 div.icon img{
     width: 35%;
@@ -237,7 +243,7 @@ div.icon img{
     padding: 10px;
     background-color: #34a0f3;
 }
-.hero h2{
+/*.hero h2{
     position: relative;
     margin-top: -200px;
     color:#000;
@@ -245,7 +251,7 @@ div.icon img{
 main picture.hero-image{
     width: 50%;
     
-}
+}*/
 .hero-image img{
     width: 100%;
 }
