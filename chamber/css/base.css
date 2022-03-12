@@ -217,6 +217,7 @@ div.icon{
 div.icon p{
     margin: -10px 0 0 -5px;
     font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div.icon img{
     width: 35%;
