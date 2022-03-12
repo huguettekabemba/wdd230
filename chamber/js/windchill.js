@@ -20,7 +20,7 @@ windchill();
 
 
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/weather?q=johannesburg&units=metric&appid=";
+  "https://api.openweathermap.org/data/2.5/weather?q=johannesburg&units=imperial&appid=3f80ad643b1ab0f399aea373e0e5e884";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -31,8 +31,8 @@ fetch(apiURL)
     const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
 
-    document.querySelector("#icon").setAttribute("src", iconsrc);
-    document.querySelector("#icon").setAttribute("alt", desc);
+    document.querySelector("#iconweather").setAttribute("src", iconsrc);
+    document.querySelector("#iconweather").setAttribute("alt", desc);
     document.querySelector("#icon-desc").textContent = desc;
 
     chills(jsObject.main.temp, jsObject.wind.speed);
