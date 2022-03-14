@@ -243,15 +243,7 @@ div.icon img{
     padding: 10px;
     background-color: #34a0f3;
 }
-/*.hero h2{
-    position: relative;
-    margin-top: -200px;
-    color:#000;
-}
-main picture.hero-image{
-    width: 50%;
-    
-}*/
+
 .hero-image img{
     width: 100%;
 }
@@ -462,7 +454,7 @@ div#info{
     
 }
 #maincontent-discover{
-    /*background: #ffff;*/
+    
     margin:10px;
 }
 .infoheader p{
@@ -575,14 +567,13 @@ main{
 .list li {
   padding-bottom: 20px;
   padding-top: 20px;
-  color: white;
+  color: #020202;
   text-align: start;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 18px;
-  
 }
 .list :nth-child(even) {
     background-color: rgba(170, 169, 169, 0.2);
@@ -602,6 +593,10 @@ main{
 .cardview :nth-child(1){
     display: none;
 }
+/*#list{
+    display: flex;
+    flex-direction: row;
+}*/
 #view {
     font-size: x-large;
     margin-top: 10px;

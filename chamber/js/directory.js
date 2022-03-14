@@ -20,7 +20,9 @@ function displayCards(company) {
     let site = document.createElement('a');
 
     logo.setAttribute('src', company.imageurl);
-    logo.setAttribute('class', 'company_logo')
+    logo.setAttribute('class', 'company_logo');
+    site.setAttribute('href', company.site);
+    site.setAttribute('target','_blank');
 
     address.textContent = company.address;
     phone.textContent = company.phone;
@@ -30,8 +32,7 @@ function displayCards(company) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(site);
-
-    cards.appendChild(card);
+    cards.appendChild(card)
 }
 
 function displayList(company) {
@@ -39,6 +40,7 @@ function displayList(company) {
     let site = document.createElement('a');
     item.textContent = `${company.name} | ${company.address} | ${company.phone} | `;
     site.setAttribute('href', company.site);
+    site.setAttribute('target','_blank');
     site.textContent = company.site;
     item.appendChild(site);
     list.appendChild(item)
@@ -63,7 +65,7 @@ function swapView() {
         document.querySelector('#cards').classList.add('null');
         document.querySelector('#cards').classList.remove('cards');
         document.querySelector('#view').classList.add('listview');
-        document.querySelector('#view').classList.remove('cardview');
+        document.querySelector('#view').classList.remove('cardview')
     }
 }
 
