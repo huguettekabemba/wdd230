@@ -24,5 +24,26 @@ if('IntersectionObserver' in window) {
     });
   }
 
+// Days since last visit
+
+let todays = Date.now();
+
+// initialize display elements
+const visitsDisplay = document.querySelector(".visits");
+
+// get the stored value in localStorage
+let lastVisit = Number(window.localStorage.getItem("visits-ls"));
+
+// determine if this is the first visit or display the number of visits.
+if (lastVisit > 0) {
+    let visitGap = Math.abs(todays - lastVisit) / 1000;
+    days = Math.floor(visitGap / 86400);
+    visitsDisplay.textContent = days;
+} else {
+    visitsDisplay.textContent = `This is your first visit!`;
+}
+
+// store the new number of visits value
+localStorage.setItem("visits-ls", todays);
 
   

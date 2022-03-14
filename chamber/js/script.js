@@ -29,17 +29,11 @@ var months = ["January", "February", "March", "April", "May", "June", "July", "A
 document.querySelector(".date").innerHTML = days[currentDate.getDay()] + ", " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear();
 
 
-//reminder on Wednesday
+//reminder for Wednesday meeting
 let today = new Date();
 if (today.getDay() == 2) {
   document.getElementById("banner").style.display = "block";
 }
 
-// number of visits
-function pagedays() {
-  var date2 = d.getTime()
-  var date1 = JSON.parse(window.localStorage.getItem('date1'))
-  var timeDifference = parseInt((date2 - date1)/(1000 * 3600 * 24));
-  window.localStorage.setItem('date1', JSON.stringify(date2));
-  document.querySelector('#days').innerHTML = 'Days Since Last Visit: ' + timeDifference;
-}
+
+
