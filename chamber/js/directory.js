@@ -15,6 +15,7 @@ fetch(requestURL)
 function displayCards(company) {
     let card = document.createElement('section');
     let logo = document.createElement('img');
+    let h4 = document.createElement('h4');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let site = document.createElement('a');
@@ -24,15 +25,18 @@ function displayCards(company) {
     site.setAttribute('href', company.site);
     site.setAttribute('target','_blank');
 
+    h4.textContent = company.name;
     address.textContent = company.address;
     phone.textContent = company.phone;
     site.textContent = company.site;
     
     card.appendChild(logo);
+    card.appendChild(h4);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(site);
-    cards.appendChild(card)
+
+    cards.appendChild(card);
 }
 
 function displayList(company) {
@@ -68,5 +72,6 @@ function swapView() {
         document.querySelector('#view').classList.remove('cardview')
     }
 }
+
 
 
