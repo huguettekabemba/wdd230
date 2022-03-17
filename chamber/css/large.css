@@ -165,12 +165,12 @@
     header footer{
         display: flex;
         flex-direction: row;
-        
     }
     .maincontentdiscover{
         display: grid;
         grid-template-columns: 1fr;
-        text-align: center;  
+        text-align: center;
+        
     }
     #gallerydiscover{
         display: grid;

@@ -134,12 +134,12 @@
         text-align: left;
     }
 
-    
     /*Gallery*/
 
     #contentdiscover{
         display: grid;
         grid-template-columns: 1fr;
+        
     }
     header footer{
         display: flex;
@@ -149,13 +149,20 @@
     .maincontentdiscover{
         display: grid;
         grid-template-columns: 1fr;
-        text-align: center;  
+        text-align: center; 
+        margin: 0;
+        /*max-width: 800px;*/
+        align-items: center;
+        justify-content: center;
+    
     }
     #gallerydiscover{
         display: grid;
         grid-template-columns: 600px;
         align-items: center;
         justify-content: center;
+        width:100%;
+        margin: 0;
     }
     
     .galleryBlock p {
@@ -182,6 +189,7 @@
     .park img:hover{filter: blur(1px) grayscale(75%);}
     .trafigura img:hover{width: 50%; height: 300px ; object-fit: cover;}
     .tablemountain img:hover{border-radius: 100px; width:35%; margin: 0 3em .5em 0;}
+
 
     /*join page*/
     
