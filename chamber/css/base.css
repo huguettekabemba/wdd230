@@ -319,6 +319,21 @@ hr {
     padding: 0;
 }
 
+#contentdiscover nav.open ul {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    background-color:  #0a5200;
+    position: fixed;
+    margin: -20px 0 10px 0;
+    top: 190px;
+    left: 10px;
+    width: 618px;
+    height: inherit;
+    text-align: center;
+    z-index: 1;
+}
+
 header footer{
     display: flex;
     flex-direction: row;
@@ -613,6 +628,57 @@ main{
     width: min-content;
     justify-self: center;
 }
+
+/* --------------------- CONTACT US ---------------------- */
+
+
+.contacttitle h1{
+    position: relative;
+    margin-top: -350px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fefefe;
+    text-align: left;
+    margin-left: 100px;
+    border: 2px solid color#000;
+    
+}
+.contactreq{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 300px;
+    
+}
+.contactform{
+    padding: 10px;
+    margin: 10px;
+    line-height: 2.5em;
+    border: none;
+    max-width: 50%;
+}
+.standardLabel{
+    width: 500;
+}
+
+.contact1{
+    background: #f2be54;
+    text-align:start;
+    padding: 30px;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 1.5em;
+    font-size: 25px;
+}
+.contact1 h3{
+    color: #fefefe;
+    
+}
+
 
 
   

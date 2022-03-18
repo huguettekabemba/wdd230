@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SA-DRC chamber of Commerce Homepage">
+    <title>SA-DRC Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body id="content">
+    <div id="banner"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        <br> At West Tower, 2nd Floor.</p>
+    </div>
+    
+    <header class="clearfix">
+        <div class="header-content">
+            <div class="logo-container">
+                <a href="index.html"><img src="images/logo.webp" alt="south Africa DRCongo Chamber of Commerce logo"></a>
+                <h4>Chamber<br>of Commerce</h4>
+            </div>
+            <div class="socialnav">
+                <div class="socials">
+                    <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook image"></a>
+                    <a href="https://www.linkedin.com"><img src="images/linkin.png" alt="LinkedIn image"></a>
+                </div>
+                <nav class="primary">
+                    <button id="ham"><span>&#9776;</span><span>X</span></button>
+                    <ul id="menu">
+                        <li class="active"><strong><a href="index.html" class="btn btn-background-slid">Home</a></strong></li>
+                        <li><strong><a href="discover.html" class="btn2">Discover</a></strong></li>
+                        <li><strong><a href="directory.html" class="btn3">Directory</a></strong></li>
+                        <li><strong><a href="join.html" class="btn4">Join</a></strong></li>
+                        <li><strong><a href="contact.html" class="btn5">Contact</a></strong></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="date"></div>
+    </header>
+    <main class="contact-main-container">
+        <div class="bannercontact">
+            <img src="images/contactbaner.jpg" alt="image of one of the beautyful places in south Africa">
+            <div class="contacttitle">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div class="contactreq">
+            <form id="join-form" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend class="contactjoin">Contact Information</legend>
+                    <label class="standardLabel">Full Name:<input type="text" name="fname" pattern="[\sa-zA-Z]{5,}" required placeholder="Full name" class="standardInput" required></label>
+                    <label class="standardLabel">Company name:<input type="text" name="title" pattern="[\sa-zA-Z]{5,}" class="standardInput"></label>
+                    <label class="standardLabel">Email:<input type="email" name="email" placeholder="example@demo.com" class="standardInput" required ></label>
+                    <label class="standardLabel">Phone Number:<input type="tel" name="phone" placeholder="123 456 7890" pattern="[0-9]{10,}" class="standardInput" required></label>
+        
+                    <div>Are you a Chamber Member</div>
+                    <label class="radioLabel"><input type="radio" name="membership" value="yes">Yes</label>
+                    <label class="radioLabel"><input type="radio" name="membership" value="no">No</label>
+                    <label class="radioLabel"><input type="radio" name="membership" value="notsure">Not Sure</label>
+                    
+                    <legend>Question/Concern</legend>
+
+                    <label class="top"><textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter text here..."></textarea></label>
+
+                </fieldset>
+                <input class="button" type="submit" value="Submit your concern">
+                <input class="formDate" type="hidden" name="completedDate">
+            </form>
+            <div class="contact1">
+                <h3>Contact Us SA-DRC Chamber of Commerce</h3>
+                <p><b>Address: </b>2nd Floor, West Tower, Johannesburg, South Africa</p>
+                <p><span><b>Phone: </b></span><span>+27 11 881 5626</span></p>
+                <P><span><b>Email: </b></span><span><a href="#" target="blanck">info@southafricadrcongo.com</a></span></P>
+        
+            </div>
+        </div>
+    </main>
+    <footer class="clearfix">
+        <div class="address-1">
+            <div class="address">
+                <div><a href=""><img src="images/logo.webp" alt="SA-DRC Chamber of Commerce logo"></a></div>
+                <div class="add">
+                    <h4>Chamber of Commerce</h4>
+                    <p><i>2nd Floor, West Tower<br>Johannesburg, South Africa</i></p>
+                </div>
+            </div>
+        
+            <div class="contact">
+                <p><a href="#" target="blanck">info@southafricadrcongo.com</a></p>
+                <p><a href="#" target="blanck">☎ +27 11 881 5626</a></p>
+                <p><a href="https://www.google.com/maps/place/South+Africa+-+DR+Congo/@-26.10579,28.0566,15z/data=!4m5!3m4!1s0x0:0xdf2e4d49cc7b94d7!8m2!3d-26.1058375!4d28.0566158" target="blanck">🚩Location Map</a></i></p></div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer1">
+            <p>&copy;<span id='year'></span> SA-DRC Chamber of Commerce .:|:. N. Kabemba huguete .:|:. WDD 230 Project .:|:. Last Modification: <span id='lastmod'></span></p>
+            <p class="weathersource"><i><a href="https://openweathermap.org/" target="_blank">weatherdatasource</a></i></p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Acme", "Milonga", "Lobster", "Roboto"]}}); </script>
+</body>
+
+</html>
+      
