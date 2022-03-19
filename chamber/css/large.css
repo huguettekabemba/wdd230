@@ -146,16 +146,92 @@
     }
     .spot div:nth-child(3) {
         display: block;
+        margin-right: 3px;
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-top: 10px;
+        max-width: 240px;
+        max-height: 150px;
+
     }
-    .spot div:nth-child(1) {
-        margin-right: 0;
+
+    .spotlight3 section{
+        width: 220px;
+        height: 110px;
+        font-size: 10px;
+        margin-top: -5px;
+        margin-bottom: 50px;
+        
     }
-    .spot div:nth-child(2) {
-        margin-left: 0;
+    .spotlight3 a{
+        font-size: 14px;
+        font-weight: bold;
+
     }
+    .spotlight3 img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    
     .join {
         display: block;
     }
+
+    .spot div:nth-child(1) {
+        margin-right: 3px;
+        padding-left: 50px;
+        padding-top: 10px;
+        max-width: 240px;
+        max-height: 150px;
+    }
+    
+    .spotlight1 section{
+        width: 220px;
+        height: 110px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+    .spotlight1 a{
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 90px;
+        margin-left: -160px;
+        
+    }
+    .spotlight1 img{
+        max-width: 100px;
+        max-height: 100px;
+        margin-bottom: -60px;
+    }
+    .spotlight2 section{
+        width: 220px;
+        height: 110px;
+        font-size: 10px;
+        margin-top: 0px;
+        
+    }
+    .spotlight2 a{
+        font-size: 14px;
+        font-weight: bold;
+
+    }
+    .spotlight2 img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .spot div:nth-child(2) {
+        margin-left: 0px;
+        margin-right: 3px;
+        padding-left: 48px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        max-width: 240px;
+        max-height: 150px;
+    }
+
     /*Gallery section*/
 
     #contentdiscover{
