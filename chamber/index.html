@@ -55,29 +55,35 @@
         <div class="maincontent" class="clearfix">
             <div class="event">
                 <h2>Upcoming Events</h2>
-                <p>1-3 june 2022<br><i>The Pullman Lubumbashi<br>Grand karavia Hotel, DRC.</i></p>
-                <p><i>The RDC Mining Week Exposition and Conference</i></p>
-                <p>19 Sep 2022<br><i>Business Loss Registration Portal FAQ</i></p>
+                <p>1-3 june 2022<br><i>The Pullman Lubumbashi<br>Grand karavia Hotel, DRC.</i><br>
+                <i>The RDC Mining Week Exposition and Conference</i><br>
+                19 Sep 2022<br><i>Business Loss Registration Portal FAQ</i></p>
             </div>
-            <div class="weather">
-                <h2>Weather</h2>
-                <img id="weathericon" src="" alt="weather">
-                <h3 id="temp">&deg;F</h3>
-                <h3 id="sky">...</h3>
-                <p id="speed">Wind Speed:km/h</p>
-                <p id="windChill">Wind Chill: N/A</p>
-                <a href="https://openweathermap.org/">Weather API Source</a>
+            
+            <div class="weather" id="weather">
+                <div>
+                    <h2>Weather</h2>
+                    <div id="weather-img-container">
+                        <picture>
+                            <img id="weather-icon">
+                        </picture>
+                        <h3><span id="temperature"></span> F°</h3>
+                    </div>
+                    <h4 id="weather-description"></h4>
+                    <hr>
+                    <p>Wind Speed: <span id="wind-speed"></span>km/h<br>
+                    Wind Chill: <span id="wind-chill"></span></p>
+                    <a href="https://openweathermap.org/">Weather API Source</a>
+                </div>
             </div>
             <div class="join">
                 <p>Join the Chamber the Chamber and have access to business communities</p>
                 <button class="joinhome"><a href="join.html">Join</a></button>
             </div>
             <div class="hero" id="hero">
-                <picture>
-                    <source media="(min-width: 32.5em) and (max-width:949px)" srcset="images/wdd230-org519.jpg">
-                    <source media="(min-width: 950px)" srcset="images/wdd230-org1852-b.jpg">
-                    <img class="aberdeen" src="images/wdd230-org200-133.jpg" alt="picture of little historic town Aberdeen">
-                </picture>
+                <figure class="herophoto">
+                    <img src="images/wdd230-orglarg.jpg" alt="people holding a meting">
+                </figure>
             </div>
             <div class="new">
                 <h2>New realese</h2>

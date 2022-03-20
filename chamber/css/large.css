@@ -49,9 +49,7 @@
     }
     
     /* the main section */
-    /*main{
-        margin-bottom: -80px;
-    }*/
+    
     .maincontent {
         margin: 10px auto;
         display: grid;
@@ -67,37 +65,59 @@
     .event {
         grid-column: 1/2;
         grid-row: 1;
-        margin-top: -10px;
+        margin-top: 0px;
         margin-bottom: 150px;
     }
     .event p{
         font-size: 18px;
-        padding: 10px;
+        padding: 0 10px 0 10px;   
+    }
+    .event h2{
+        margin-top: -10px;
     }
     .event h2, .new h2, .weather h2{
         font-size: 20px;
     }
     .weather p{
-        font-size: 18px;
+        font-size: 16px;
+        margin-top: 10px;
     }
     .weather {
         grid-column: 1/2;
         grid-row: 2;
         margin-top: -150px;
         margin-bottom: 40px;
+        padding-bottom: -20px;
+    }
+    .weather a{
+        font-size: 14px;
+        margin-top: -30px;
     }
     .weather h3 {
-        font-size:25px;
-        margin-right: -70px;
-        margin-top: 30px;
+        font-size:16px;
+        margin-right: -40px;
+        margin-top: 20px;
+        color: #fefefe;
+    }
+    .weather h2 {
+        margin-top: -10px;
     }
     .weather img {
         float: left;
-        width: 100px;
-        height: 100px;
-        margin-top: -20px;
+        width: 60px;
+        height: 60px;
+        margin-top: -25px;
         margin-right: -100px;
-        margin-left: 40px;
+        margin-left: 60px;
+    }
+    .weather hr{
+        margin-top: -20px;
+    }
+    .weather h4{
+        text-align: center;
+        margin-left: -30px;
+        margin-right: -20px;
+        font-size: 16px;
     }
     div.icon{
         display: flex;
@@ -131,17 +151,20 @@
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;
-        margin-top: -10px;
-        margin-right: 0px;
-        margin-left: 0px;
         
     }
-    .hero-image img{
-        max-width: 100%;
-        margin-top: -20px;
-        margin-bottom: -25px;
-        margin-left: -5px;    
+    
+    main figure.herophoto{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0%;
     }
+    main figure.herophoto img{
+        width: 100%;
+        height: 100%;
+        margin-top: -10px;
+    }
+    
     
     .new {
         grid-column: 2/4;
@@ -149,8 +172,13 @@
         margin-bottom: 60px;
         margin-top: -40px;
     }
+    .new h2{
+        margin-top: -10px;
+    }
     .new p{
         font-size: 18px;
+        line-height: .5em;
+        
     }
     .spot {
         grid-column: 4;
@@ -160,7 +188,6 @@
         grid-auto-rows: minmax(100px, auto);
         padding: 30px;
         margin-bottom: 60px;
-        margin-top: -10px;
     }
     .spot div:nth-child(3) {
         display: block;
@@ -169,18 +196,16 @@
         padding-left: 50px;
         padding-top: 10px;
         max-width: 240px;
-        max-height: 300px;
-
+        max-height: 180px;
     }
 
     .spotlight3 section{
         width: 220px;
-        height: 260px;
-        font-size: 10px;
+        height: 140px;
+        font-size: 13px;
         margin-top: -5px;
         margin-bottom: 50px;
-        
-        
+        line-height: 1em;
     }
     .spotlight3 a{
         font-size: 14px;
@@ -189,13 +214,16 @@
     }
     .spotlight3 img{
         max-width: 100px;
-        max-height: 100px;
+        max-height: 70px;
+        margin-top: -20px;
     }
     .spotlight3 h4{
-        font-size: 18px;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: -10px;
     }
     .spotlight3 p{
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .join {
@@ -206,6 +234,7 @@
         text-align: center;
         padding: 10px;
         font-size: 18px;
+        margin-top: -10px;
     }
     .join a{
         text-decoration: none;
@@ -218,23 +247,22 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 70px;
+        margin-top: -10px;
         border-radius: 8px;
         background-color: #f8c62f;
     } 
-
-
     .spot div:nth-child(1) {
         margin-right: 3px;
         padding-left: 50px;
         padding-top: 10px;
         max-width: 240px;
-        max-height: 300px;
+        max-height: 170px;
     }
     
     .spotlight1 section{
         width: 220px;
-        height: 260px;
+        height: 130px;
         margin-top: -5px;
         margin-right: 10px;
         
@@ -242,46 +270,50 @@
     .spotlight1 a{
         font-size: 14px;
         font-weight: bold;
-        margin-top: 10px;
-        margin-left: -110px;
+        margin-top: -10px;
+        margin-left: -100px;
         
     }
     .spotlight1 img{
         max-width: 100px;
-        max-height: 100px;
-        margin-bottom: -60px;
+        max-height: 70px;
+        margin-bottom: -30px;
+        margin-top: -300px;
     }
     .spotlight1 h4{
-        font-size: 18px;
-        margin-top: 80px;
+        font-size: 14px;
+        margin-top: 40px;
     }
     .spotlight1 p{
-        font-size: 16px;
+        font-size: 14px;
+        margin-top: -15px;
     }
     .spotlight2 section{
         width: 220px;
-        height: 260px;
+        height: 130px;
         font-size: 10px;
-        margin-top: 0px;
-        
-        
+        margin-top: -5px;
     }
     .spotlight2 a{
         font-size: 14px;
         font-weight: bold;
-
+        
     }
     .spotlight2 img{
         max-width: 100px;
-        max-height: 100px;
+        max-height: 70px;
+        margin-top: -30px;
     }
     .spotlight2 h4{
-        font-size: 18px;
+        font-size: 14px;
+        margin-top: 10px;
+
     }
     .spotlight2 p{
-        font-size: 16px;
+        font-size: 14px;
+        margin-top: -15px;
+        
     }
-
     .spot div:nth-child(2) {
         margin-left: 0px;
         margin-right: 3px;
@@ -292,7 +324,7 @@
         align-items: center;
         justify-content: center;
         max-width: 240px;
-        max-height: 300px;
+        max-height: 160px;
     }
 
     /*Gallery section*/
@@ -300,6 +332,18 @@
     #contentdiscover{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    
+    .maincontentdiscover{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;  
+    }
+    #gallerydiscover{
+        display: grid;
+        grid-template-columns: 600px;
+        align-items: center;
+        justify-content: center;
     }
     header footer{
         display: flex;
@@ -338,6 +382,13 @@
 
 
     /*Join page*/
+    div#info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin: 10px;
+        
+    }
     .cards {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 5px;

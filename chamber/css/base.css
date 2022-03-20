@@ -237,7 +237,7 @@ div.date{
     margin-top: 40px;
     text-align: center;
 }
-#windChill{
+.windChill{
     margin-top: -10px;
 }
 .weather a{
@@ -258,11 +258,19 @@ div.date{
     margin-bottom: 40px;
 }
 
-.hero-image img{
+/*.hero-image img{
     width: 100%;
     margin: 0px -10px -150px 0px;
+}*/
+main figure.herophoto{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
 }
-
+main figure.herophoto img{
+    width: 100%;
+    height: 100%;
+}
 .new {
     grid-row: 4;
     padding: 10px;
