@@ -16,6 +16,10 @@ fetch(requestURL)
             let town = document.createElement('section');
             let logo = document.createElement('img');
             let site = document.createElement('a');
+            let h4 = document.createElement('h4');
+            let phone = document.createElement('p');
+            let address = document.createElement('p');
+
 
             logo.setAttribute('src', townpreston.imageurl);
             logo.setAttribute('class', 'company_logo');
@@ -23,8 +27,15 @@ fetch(requestURL)
             site.setAttribute('target','_blank');
             //use templet Literals
             logo.innerHTML = `${townpreston.imageurl}`;
+            h4.innerHTML = `${townpreston.name}`;
+            address.innerHTML = `${townpreston.address}`;
+            phone.innerHTML = `${townpreston.phone}`;
             site.innerHTML = `${townpreston.site}`;
+            
             town.append(logo);
+            town.append(h4);
+            town.append(address);
+            town.append(phone);
             town.append(site);
             spotlight1.append(town);
         });
@@ -36,6 +47,9 @@ fetch(requestURL)
             let town = document.createElement('section');
             let logo = document.createElement('img');
             let site = document.createElement('a');
+            let h4 = document.createElement('h4');
+            let phone = document.createElement('p');
+            let address = document.createElement('p');
 
             logo.setAttribute('src', spotl2.imageurl);
             logo.setAttribute('class', 'company_logo');
@@ -43,8 +57,15 @@ fetch(requestURL)
             site.setAttribute('target','_blank');
             //use templet Literals
             logo.innerHTML = `${spotl2.imageurl}`;
+            h4.innerHTML = `${spotl2.name}`;
+            address.innerHTML = `${spotl2.address}`;
+            phone.innerHTML = `${spotl2.phone}`;
             site.innerHTML = `${spotl2.site}`;
+
             town.append(logo);
+            town.append(h4);
+            town.append(address);
+            town.append(phone);
             town.append(site);
             spotlight2.append(town);
         });
@@ -57,6 +78,9 @@ fetch(requestURL)
             let town = document.createElement('section');
             let logo = document.createElement('img');
             let site = document.createElement('a');
+            let h4 = document.createElement('h4');
+            let phone = document.createElement('p');
+            let address = document.createElement('p');
 
             logo.setAttribute('src', spotl3.imageurl);
             logo.setAttribute('class', 'company_logo');
@@ -64,8 +88,15 @@ fetch(requestURL)
             site.setAttribute('target','_blank');
             //use templet Literals
             logo.innerHTML = `${spotl3.imageurl}`;
+            h4.innerHTML = `${spotl3.name}`;
+            address.innerHTML = `${spotl3.address}`;
+            phone.innerHTML = `${spotl3.phone}`;
             site.innerHTML = `${spotl3.site}`;
+
             town.append(logo);
+            town.append(h4);
+            town.append(address);
+            town.append(phone);
             town.append(site);
             spotlight3.append(town);
         });

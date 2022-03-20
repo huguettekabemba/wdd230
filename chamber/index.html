@@ -53,29 +53,38 @@
             <img src="images/heropic.jpg" alt="image of tow in south Africa">
         </div>
         <div class="maincontent" class="clearfix">
-            <div class="event">Event</div>
-            <div class="weather">
-                <h5>Weather</h5>
-                <div class="icon">
-                    <img id="iconweather" src="" alt="">
-                    <p><strong><span id="temp"></span>°F</strong></p>
-                </div>
-                <div class="condition">
-                    <p id="icon-desc"></p>
-                    <hr class="speed-wind">
-                    <p>Wind Speed: <span id="speed"></span>km/h</p>
-                    <p id="chill"></p>
-                </div>
+            <div class="event">
+                <h2>Upcoming Events</h2>
+                <p>1-3 june 2022<br><i>The Pullman Lubumbashi<br>Grand karavia Hotel, DRC.</i></p>
+                <p><i>The RDC Mining Week Exposition and Conference</i></p>
+                <p>19 Sep 2022<br><i>Business Loss Registration Portal FAQ</i></p>
             </div>
-            <div class="join">Join</div>
+            <div class="weather">
+                <h2>Weather</h2>
+                <img id="weathericon" src="" alt="weather">
+                <h3 id="temp">&deg;F</h3>
+                <h3 id="sky">...</h3>
+                <p id="speed">Wind Speed:km/h</p>
+                <p id="windChill">Wind Chill: N/A</p>
+                <a href="https://openweathermap.org/">Weather API Source</a>
+            </div>
+            <div class="join">
+                <p>Join the Chamber the Chamber and have access to business communities</p>
+                <button class="joinhome"><a href="join.html">Join</a></button>
+            </div>
             <div class="hero" id="hero">
-                <picture class="hero-image">
-                    <source media="(max-width: 32.5em)" srcset="images/small500.jpg">
-                    <source media="(max-width: 67.5em)" srcset="images/medium519.jpg">
-                    <img class="larg" src="images/large1079.jpg" alt="meeting time">
+                <picture>
+                    <source media="(min-width: 32.5em) and (max-width:949px)" srcset="images/wdd230-org519.jpg">
+                    <source media="(min-width: 950px)" srcset="images/wdd230-org1852-b.jpg">
+                    <img class="aberdeen" src="images/wdd230-org200-133.jpg" alt="picture of little historic town Aberdeen">
                 </picture>
             </div>
-            <div class="new">new realese</div>
+            <div class="new">
+                <h2>New realese</h2>
+                <p><a href="https://sa-drctic.co.za/Chamber%20weekly%20news%20letter%201.pdf" target="blank">A Message From The Chairman</a></p>
+                <p><a href="https://capechamber.co.za/news/governments-love-emergencies-wish-they-never-ended" target="blank">Governments love emergencies wish they never ended</a></p>
+                <p>Tell Us Your News <a href="https://www.facebook.com/FrenchChamberSA/?ref=br_rs">facebook</a></p>
+            </div>
             <div class="spot">
                 <div class="spotlight1"></div>
                 <div class="spotlight2"></div>
@@ -103,7 +112,6 @@
         <hr>
         <div class="footer1">
             <p>&copy;<span id='year'></span> SA-DRC Chamber of Commerce .:|:. N. Kabemba huguete .:|:. WDD 230 Project .:|:. Last Modification: <span id='lastmod'></span></p>
-            <p class="weathersource"><i><a href="https://openweathermap.org/" target="_blank">weatherdatasource</a></i></p>
         </div>
     </footer>
     
