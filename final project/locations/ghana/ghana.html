@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="images/favimgfin.jpg">
     
     <script src="scripts/finalScripts.js"></script>
+    <script src="scripts/windchill.js"></script>
     
     <link href="css/normalize.css" rel="stylesheet" >
     <link href="css/small.css" rel="stylesheet" >
@@ -21,8 +22,21 @@
 
 <body>
     <header>
-        <img class="logo" src="images/logot.webp" alt="Temple Inn & Suites Logo" >
-        <h1>Temple Inn & Suites</h1>
+        <img class="logo" src="images/logotemple.webp" alt="Temple Inn & Suites Logo" >
+        <div>
+            <h2>Ghana,Accra Weather </h2>
+            <div id="weather-img-container">
+                <picture>
+                    <img id="weather-icon">
+                </picture>
+                <h3><span id="temperature"></span> F°</h3>
+            </div>
+            <h4 id="weather-description"></h4>
+            <hr>
+            <p>Wind Speed: <span id="wind-speed"></span>km/h<br>
+            Wind Chill: <span id="wind-chill"></span></p>
+            <a href="https://openweathermap.org/">Weather API Source</a>
+        </div>
     </header>     
     <nav class="nav-bar">
     <label for="toggle" class="menu-bars">&#9776;</label>
@@ -38,18 +52,18 @@
             
             <ul class="nav-ul">    
                 <li class="nav-tier-2">
-                    <a href="../ghana/ghana.html" class="patrons link-tier-2">Patrons</a>
+                    <a href="/final project/services/patrons/patron.html" class="patrons link-tier-2">Patrons</a>
                 </li>
                 <li class="nav-tier-2">
-                    <a href="receptions.html" class="receptions link-tier-2">Receptions</a>
+                    <a href="/final project/services/reception/receptions.html" class="receptions link-tier-2">Receptions</a>
                 </li>
                 
                 <li class="nav-tier-2">
-                    <a href="missionnaries.html" class="missionaries link-tier-2">Full Time Missionaries</a>
+                    <a href="/final project/services/mission/missionnaries.html" class="missionaries link-tier-2">Full Time Missionaries</a>
                 </li>
 
                 <li class="nav-tier-2">
-                    <a href="history.html" class="history link-tier-2">Family History</a>
+                    <a href="/final project/services/history/history.html" class="history link-tier-2">Family History</a>
                 </li>
             </ul>
         </li>
@@ -78,11 +92,11 @@
             </ul>
         </li>
         <li class="nav-tier-1">
-            <a href="reservations.html" class="reservations link-tier-1">Reservations</a>
+            <a href="/final project/reservation/reservations.html" class="reservations link-tier-1">Reservations</a>
         </li>
 
         <li class="nav-tier-1">
-            <a href="contact.html" class="contact link-tier-1">Contact</a>
+            <a href="/final project/contact/contact.html" class="contact link-tier-1">Contact</a>
         </li>
 
     </ul>

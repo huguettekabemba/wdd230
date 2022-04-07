@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="images/favimgfin.jpg">
     
     <script src="scripts/finalScripts.js"></script>
+    <script src="scripts/windchill.js"></script>
     
     <link href="css/normalize.css" rel="stylesheet" >
     <link href="css/small.css" rel="stylesheet" >
@@ -21,15 +22,29 @@
 
 <body>
     <header>
-        <img class="logo" src="images/logot.webp" alt="Temple Inn & Suites Logo" >
-        <h1>Temple Inn & Suites</h1>
+        <img class="logo" src="images/logotemple.png" alt="Temple Inn & Suites Logo">
+        <div>
+            <h2>DRC, Kinshasa Weather </h2>
+            <div id="weather-img-container">
+                <picture>
+                    <img id="weather-icon">
+                </picture>
+                <h3><span id="temperature"></span> F°</h3>
+            </div>
+            <h4 id="weather-description"></h4>
+            <hr>
+            <p>Wind Speed: <span id="wind-speed"></span>km/h<br>
+            Wind Chill: <span id="wind-chill"></span></p>
+            <a href="https://openweathermap.org/">Weather API Source</a>
+        </div>
+        
     </header>     
     <nav class="nav-bar">
     <label for="toggle" class="menu-bars">&#9776;</label>
     <input type="checkbox" id="toggle">
     <ul class="nav-ul">
         <li class="nav-tier-1">
-            <a href="index.html" class="index link-tier-1">Home</a>
+            <a href="/index.html" class="index link-tier-1">Home</a>
         </li>
 
         <li class="nav-tier-1">
@@ -38,18 +53,18 @@
             
             <ul class="nav-ul">    
                 <li class="nav-tier-2">
-                    <a href="services/patrons/patron.html" class="patrons link-tier-2">Patrons</a>
+                    <a href="/final project/services/patrons/patron.html" class="patrons link-tier-2">Patrons</a>
                 </li>
                 <li class="nav-tier-2">
-                    <a href="services/reception/receptions.html" class="receptions link-tier-2">Receptions</a>
+                    <a href="/final project/services/reception/receptions.html" class="receptions link-tier-2">Receptions</a>
                 </li>
                 
                 <li class="nav-tier-2">
-                    <a href="services/mission/missionnaries.html" class="missionaries link-tier-2">Full Time Missionaries</a>
+                    <a href="/final project/services/mission/missionnaries.html" class="missionaries link-tier-2">Full Time Missionaries</a>
                 </li>
 
                 <li class="nav-tier-2">
-                    <a href="services/history/history.html" class="history link-tier-2">Family History</a>
+                    <a href="/final project/services/history/history.html" class="history link-tier-2">Family History</a>
                 </li>
             </ul>
         </li>
@@ -60,29 +75,27 @@
             
             <ul class="nav-ul">
                 <li class="nav-tier-2">
-                    <a href="locations/jobek/jobek.html" class="bern link-tier-2">South Africa, Johannesburg</a>
+                    <a href="/final project/locations/jobek/jobek.html" class="bern link-tier-2">South Africa, Johannesburg</a>
                 </li>
                 <li class="nav-tier-2">
-                    <a href="locations/ghana/ghana.html" class="bogota link-tier-2">Ghana, Accra</a>
+                    <a href="/final project/locations/ghana/ghana.html" class="bogota link-tier-2">Ghana, Accra</a>
                 </li>
                 
                 <li class="nav-tier-2">
-                    <a href="locations/nigeria/nigeria.html" class="calgary link-tier-2">Nigeria, Aba</a>
+                    <a href="/final project/locations/nigeria/nigeria.html" class="calgary link-tier-2">Nigeria, Aba</a>
                 </li>
 
                 <li class="nav-tier-2">
-                    <a href="locations/kin/kin.html" class="seoul link-tier-2">DRC, Kinshasa</a>
+                    <a href="/final project/locations/kin/kin.html" class="seoul link-tier-2">DRC, Kinshasa</a>
                 </li>
-
-                
             </ul>
         </li>
         <li class="nav-tier-1">
-            <a href="reservation/reservations.html" class="reservations link-tier-1">Reservations</a>
+            <a href="/final project/reservation/reservations.html" class="reservations link-tier-1">Reservations</a>
         </li>
 
         <li class="nav-tier-1">
-            <a href="contact/contact.html" class="contact link-tier-1">Contact</a>
+            <a href="/final project/contact/contact.html" class="contact link-tier-1">Contact</a>
         </li>
 
     </ul>
@@ -96,14 +109,14 @@
                     <figcaption>DR Congo, Kinshasa Temple</figcaption>
                 </figure>
             </a>
-            <a href="calgary-inn.php">
+            <a href="/final project/locations/kin/kin.html">
                 <figure>
                     <img alt="Image of the Calgary, Alberta, Canada Inn" src="images/kinh.jpg">
                     <figcaption>DR Congo, Kinshasa Inn</figcaption>
                 </figure>
             </a>
         </div>
-        <a class="link-button" href="reservations.php">Book Now</a>
+        <a class="link-button" href="/final project/reservation/reservations.html">Book Now</a>
         
     </section>
 
