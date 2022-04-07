@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Huguette's Final Project - Home Page</title>
+    <meta name="description" content="Final Project by Huguette Kabemba in Wdd 230: Web Front-end Development at Brigham Young University-Idaho.">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favimgfin.jpg">
+    
+    <script src="scripts/finalScripts.js"></script>
+    
+    <link href="css/normalize.css" rel="stylesheet" >
+    <link href="css/small.css" rel="stylesheet" >
+    <link href="css/medium.css" rel="stylesheet" >
+    <link href="css/large.css" rel="stylesheet" >    <style>
+        .index {background-color: #384c54; color: white;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logot.webp" alt="Temple Inn & Suites Logo" >
+        <h1>Temple Inn & Suites</h1>
+    </header>     
+    <nav class="nav-bar">
+    <label for="toggle" class="menu-bars">&#9776;</label>
+    <input type="checkbox" id="toggle">
+    <ul class="nav-ul">
+        <li class="nav-tier-1">
+            <a href="index.html" class="index link-tier-1 active">Home</a>
+        </li>
+
+        <li class="nav-tier-1">
+            <label for="toggle-1" class="services link-tier-1">Services &#x25BE;</label>
+            <input type="checkbox" id="toggle-1">
+            
+            <ul class="nav-ul">    
+                <li class="nav-tier-2">
+                    <a href="services/patrons/patron.html" class="patrons link-tier-2">Patrons</a>
+                </li>
+                <li class="nav-tier-2">
+                    <a href="services/reception/receptions.html" class="receptions link-tier-2">Receptions</a>
+                </li>
+                
+                <li class="nav-tier-2">
+                    <a href="services/mission/missionnaries.html" class="missionaries link-tier-2">Full Time Missionaries</a>
+                </li>
+
+                <li class="nav-tier-2">
+                    <a href="services/history/history.html" class="history link-tier-2">Family History</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav-tier-1">
+            <label for="toggle-2" class="locations link-tier-1">Locations &#x25BE;</label>
+            <input type="checkbox" id="toggle-2">
+            
+            <ul class="nav-ul">
+                <li class="nav-tier-2">
+                    <a href="locations/jobek/jobek.html" class="bern link-tier-2">South Africa, Johannesburg</a>
+                </li>
+                <li class="nav-tier-2">
+                    <a href="locations/ghana/ghana.html" class="bogota link-tier-2">Ghana, Accra</a>
+                </li>
+                
+                <li class="nav-tier-2">
+                    <a href="locations/nigeria/nigeria.html" class="calgary link-tier-2">Nigeria, Aba</a>
+                </li>
+
+                <li class="nav-tier-2">
+                    <a href="locations/kin/kin.html" class="seoul link-tier-2">DRC, Kinshasa</a>
+                </li>
+
+                
+            </ul>
+        </li>
+        <li class="nav-tier-1">
+            <a href="reservation/reservations.html" class="reservations link-tier-1">Reservations</a>
+        </li>
+
+        <li class="nav-tier-1">
+            <a href="contact/contact.html" class="contact link-tier-1">Contact</a>
+        </li>
+
+    </ul>
+    </nav>    
+
+    <section>
+        <div id="slider"> 
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/bern-inn-7-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/bern-inn-7.jpg">
+                <img src="images/slider-images/bern-inn-7.jpg" alt="Bern Inn 7 Slider Image">
+            </picture>
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/bern-inn-10-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/bern-inn-10.jpg">
+                <img src="images/slider-images/bern-inn-10.jpg" alt="Bern Inn 10 Slider Image">
+            </picture>
+            
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/seoul-inn-10-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/seoul-inn-10.jpg">
+                <img src="images/slider-images/seoul-inn-10.jpg" alt="Seoul Inn 10 Slider Image">
+            </picture>
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/calgary-inn-4-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/calgary-inn-4.jpg">
+                <img src="images/slider-images/calgary-inn-4.jpg" alt="Calgary Inn 4 Slider Image">
+            </picture>
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/calgary-inn-3-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/calgary-inn-3.jpg">
+                <img src="images/slider-images/calgary-inn-3.jpg" alt="Calgary Inn 3 Slider Image">
+            </picture>
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/bogota-inn-10-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/bogota-inn-10.jpg">
+                <img src="images/slider-images/bogota-inn-10.jpg" alt="Bogotá Inn 10 Slider Image">
+            </picture>
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/bogota-inn-0-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/bogota-inn-0.jpg">
+                <img src="images/slider-images/bogota-inn-0.jpg" alt="Bogotá Inn 0 Slider Image">
+            </picture>
+            <picture>
+                <source media="(max-width: 599px)" srcset="images/slider-images/seoul-inn-1-half.jpg">
+                <source media="(min-width: 600px)" srcset="images/slider-images/seoul-inn-1.jpg">
+                <img src="images/slider-images/seoul-inn-1.jpg" alt="Seoul Inn 1 Slider Image">
+            </picture>
+        </div>
+    <!--........................END OF SLIDER IMAGES...........................-->
+        <div class="home-buttons">
+            <a class="link-button accomm-button" href="accommodations.html" target="_blank">Accommodations</a>
+            <a class="link-button book-button" href="reservations.html" target="_blank">Book Now</a>
+            <a class="link-button events-button" href="weddings.html" target="_blank">Events</a>
+        </div>
+        <div class="home-temple-buttons-container">
+            <a class="home-temple-button" href="jobek-temple.html" aria-label-"Click the Button to learn about the Johannesburg Temple"><img alt="jobek Temple Button" src="images/temples/jobektemp.jpg"></a>
+            <a class="home-temple-button" href="Accra-temple.html" aria-label-"Click the Button to learn about the Accra Temple"><img alt="Accra Temple Button" src="images/temples/accratemp.jpg"></a>
+            <a class="home-temple-button" href="Aba-temple.html" aria-label-"Click the Button to learn about the Aba Nigeria Temple"><img alt="Aba Temple Button" src="images/temples/nigeriat.jpg"></a>
+            <a class="home-temple-button" href="Kinshasa-temple.html" aria-label-"Click the Button to learn about the DRC Kinshasa Temple"><img alt="Kinshasa Temple Button" src="images/temples/drctemp.jpg"></a>
+        </div>
+        <div class="wide-view">
+            <div class="wide-location-links" id="wide-bern-links">
+                <h1 class="center">SA, JOHANNESBURG</h1>
+                <div class="wide-links-container">
+                    <a class="link-button wide-accomm" href="jobek-inn.html" target="_blank">Accommodations</a>
+                    <a class="link-button wide-book" href="reservations.html" target="_blank">Book Now</a>
+                    <a class="link-button wide-events" href="receptions.html" target="_blank">Events</a>
+                </div>
+                <img alt="Bern Skyline Image" src="images/skylines/jbbk.jpg">
+            </div>
+            <div class="wide-location-links">
+                <h1 class="center">GHANA, ACCRA</h1>
+                <div class="wide-links-container">
+                    <a class="link-button wide-accomm" href="accra-inn.html" target="_blank">Accommodations</a>
+                    <a class="link-button wide-book" href="reservations.html" target="_blank">Book Now</a>
+                    <a class="link-button wide-events" href="receptions.html" target="_blank">Events</a>
+                </div>
+                <img alt="Bogotá Skyline Image" src="images/skylines/ghhn.jpg">
+            </div>
+            <div class="wide-location-links">
+                <h1 class="center">NIGERIA, ABA</h1>
+                <div class="wide-links-container">
+                    <a class="link-button wide-accomm" href="aba-inn.html" target="_blank">Accommodations</a>
+                    <a class="link-button wide-book" href="reservations.html" target="_blank">Book Now</a>
+                    <a class="link-button wide-events" href="receptions.html" target="_blank">Events</a>
+                </div>
+                <img alt="Calgary Skyline Image" src="images/skylines/nig1.jpg">
+            </div>
+            <div class="wide-location-links">
+                <h1 class="center">DRC, KINSHASA</h1>
+                <div class="wide-links-container">
+                    <a class="link-button wide-accomm" href="kin-inn.html" target="_blank">Accommodations</a>
+                    <a class="link-button wide-book" href="reservations.html" target="_blank">Book Now</a>
+                    <a class="link-button wide-events" href="receptions.html" target="_blank">Events</a>
+                </div>
+                <img alt="Seoul Skyline Image" src="images/skylines/kss.jpg">
+            </div>
+        </div>
+    <!--............................QUOTES SECTION...........................-->    
+        <div class="quotes-slider">
+            <div class="quoteSlides">
+                <q>Wonderful stay, wonderful staff, wonderful time</q>
+                <p class="author">- Mr & Mrs. Wonderful</p>
+            </div>
+                
+            <div class="quoteSlides">
+                <q>Tranportation shuttle was right on time! </q>
+                <p class="author">- White Rabbit</p>
+            </div>
+                
+            <div class="quoteSlides">
+                <q>Our event was exquisite. The food was sublime, and the decorations were spot on.</q>
+                <p class="author">- Martha Stewart</p>
+            </div>
+            
+            <a class="quote-prev" onclick="plusQuoteSlides(-1)"></a>
+            <a class="quote-next" onclick="plusQuoteSlides(1)"></a>
+            
+        </div>
+            
+        <div class="dot-container">
+            <span class="dot" onclick="currentQuoteSlide(1)"></span> 
+            <span class="dot" onclick="currentQuoteSlide(2)"></span> 
+            <span class="dot" onclick="currentQuoteSlide(3)"></span> 
+        </div>
+        <script>showQuoteSlides(1)</script>
+    <!--...........................END QUOTES SECTION....................--> 
+
+    <div class="text" id="home-temples-list">
+        <h3>Learn more about: </h3>
+        <h3><a href="bern-temple.html">Souht Africa, Johannesburg Temple</a></h3>
+        <h3><a href="bogota-temple.html">Ghana, Accra Temple</a></h3>
+        <h3><a href="calgary-temple.html">Nigeria, Aba Temple</a></h3>
+        <h3><a href="seoul-temple.html">DRC, Kinshasa Temple</a></h3>
+        <h3>Be our guest.</h3>
+        <p>&nbsp;</p>
+    </div>
+
+    <a class="link-button" id="home-book-button" href="reservations.html" target="_blank">Book Now</a>
+    
+</section>
+       
+<footer id="footer">
+    <p>*Hotel accommodations and services are available to anyone willing to abide by the <a href="#">terms and policies</a>.
+    <br>This is a fictitious site designed for a university assignment.
+    <br>&copy;
+    <script>fullYear()</script>
+    &nbsp;Huguette Kabemba</p>
+    <div class="socials">
+        <a href="https://www.facebook.com/churchofjesuschristtemples"><img src="images/fb.png" alt="Facebook" target="blanck"></a>
+        <a href="https://twitter.com/cofjctemples"><img src="images/twiter.png" alt="Twiter" target="blanck"></a>
+    </div>
+</footer>
+</body>
+</html>

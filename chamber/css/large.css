@@ -151,18 +151,19 @@
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;
+       
         
     }
     
     main figure.herophoto{
         width: 100%;
-        height: 100%;
-        margin: 0 0 0 0%;
+        margin: 0;
+        
     }
     main figure.herophoto img{
         width: 100%;
         height: 100%;
-        margin-top: -10px;
+        
     } 
     .new {
         grid-column: 2/4;
