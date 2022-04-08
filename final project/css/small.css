@@ -144,7 +144,7 @@ p a:active{
     text-decoration:none;
 }
 .link-button:visited{
-    color:#fff;
+    color:#000;
 }
 .link-button:hover{
     color:#006686;

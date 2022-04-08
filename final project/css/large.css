@@ -2,7 +2,8 @@
     .wide-view{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 10px 0 0 0;
+        margin: 40px 0 0 0;
+        grid-gap: 30px;
     }
     .link-tier-1,.link-tier-2{
         padding:10px 50px
@@ -55,7 +56,8 @@
         max-width:1500px;
         display:grid;
         grid-template-columns:1fr 1fr 1fr 1fr;
-        padding:0 0 0 5%
+        padding:0 0 0 5%;
+        
     }
     .fulltext article{
         width:90%
