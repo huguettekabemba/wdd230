@@ -2,3 +2,9 @@
 a.active {
     background-color:#384c54;
 }
+#thanksreservation{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 3em;
+}

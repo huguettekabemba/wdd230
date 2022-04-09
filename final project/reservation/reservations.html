@@ -59,25 +59,25 @@
             
             <ul class="nav-ul">
                 <li class="nav-tier-2">
-                    <a href="../locations/jobek/jobek.html" class="bern link-tier-2">South Africa, Johannesburg</a>
+                    <a href="../jobek/jobek.html" class="bern link-tier-2">South Africa, Johannesburg</a>
                 </li>
                 <li class="nav-tier-2">
-                    <a href="../locations/ghana/ghana.html" class="bogota link-tier-2">Ghana, Accra</a>
+                    <a href="../ghana/ghana.html" class="bogota link-tier-2">Ghana, Accra</a>
                 </li>
                 
                 <li class="nav-tier-2">
-                    <a href="../locations/nigeria/nigeria.html" class="calgary link-tier-2">Nigeria, Aba</a>
+                    <a href="../nigeria/nigeria.html" class="calgary link-tier-2">Nigeria, Aba</a>
                 </li>
 
                 <li class="nav-tier-2">
-                    <a href="../locations/kin/kin.html" class="seoul link-tier-2">DRC, Kinshasa</a>
+                    <a href="../kin/kin.html" class="seoul link-tier-2">DRC, Kinshasa</a>
                 </li>
 
                 
             </ul>
         </li>
         <li class="nav-tier-1">
-            <a href="reservation/reservations.html" class="reservations link-tier-1 active">Reservations</a>
+            <a href="../reservation/reservations.html" class="reservations link-tier-1 active">Reservations</a>
         </li>
 
         <li class="nav-tier-1">
@@ -88,116 +88,114 @@
     </nav>    
     <section class="reservations-section">
         <h1 class="center">Reservations</h1>
-        <form class="reservations-form" action="reserveform.php" method="post">
-         
-        
-        <h2>Personal Information</h2>
-        <div class="personal-info">
-            <p>
-                <label aria-label="Enter First Name Here">*First Name</label><br>
-                <input type="text" name="firstname" placeholder="FirstName" pattern="[A-Za-z\s]{5,}" required>
-            </p>
-            <p>
-                <label aria-label="Enter Last Name Here">*Last Name</label><br>
-                <input type="text" name="lastname" placeholder="LastName" pattern="[A-Za-z\s]{5,}" required>
-            </p>
-            <p>
-                <label aria-label="Enter Home Country Here">*Home Country</label><br>
-                <input type="text" name="homecountry" placeholder="HomeCountry" pattern="[A-Za-z\s]{5,}" required>
-            </p>
-            <p>
-                <label aria-label="Enter Email Here">*Email</label><br>
-                <input type="text" name="mail" placeholder="youremail@address.com" required>
-            </p>
-            <p>
-                <label aria-label="Enter Phone Number Here">*Phone<br>
-                <input type="tel" name="phone" placeholder="1235551234" required></label>
-            </p>
-        </div>
-        
-            <p>&nbsp;</p>
-        <h2>Reservation Information</h2>
-        <div class="reservation-info">
-            <p>
-                <label aria-label="Select Location Here">*Location<br>
-                    <input list="locations" name="locations">
-                    <datalist id="locations">
-                        <option value="Bern, Switzerland Inn">
-                        <option value="Bogotá, Colombia Inn">
-                        <option value="Calgary, Alberta, Canada Inn">
-                        <option value="Seoul, South Korea Inn">
-                    </datalist>
-                </label>
-            </p>
-
-            <p>
-                <label aria-label="Select Reservation Type Here">Reservation Type<br>
-                    <input list="reservation" name="reservation">
-                    <datalist id="reservation">
-                        <option value="Drop In Change Rooms">
-                        <option value="Temple Shuttle">
-                        <option value="Short Term Babysitting">
-                        <option value="Family History Consultation">
-                        <option value="Missionary Accommodations">
-                        <option value="Wedding Reception">
-                    </datalist>
-                </label>
-            </p>
+        <form class="reservations-form" method="get" action="thanks.html">
+            <h2>Personal Information</h2>
+            <div class="personal-info">
+                <p>
+                    <label aria-label="Enter First Name Here">*First Name</label><br>
+                    <input type="text" name="firstname" placeholder="FirstName" pattern="[A-Za-z\s]{5,}" required>
+                </p>
+                <p>
+                    <label aria-label="Enter Last Name Here">*Last Name</label><br>
+                    <input type="text" name="lastname" placeholder="LastName" pattern="[A-Za-z\s]{5,}" required>
+                </p>
+                <p>
+                    <label aria-label="Enter Home Country Here">*Home Country</label><br>
+                    <input type="text" name="homecountry" placeholder="HomeCountry" pattern="[A-Za-z\s]{5,}" required>
+                </p>
+                <p>
+                    <label aria-label="Enter Email Here">*Email</label><br>
+                    <input type="text" name="mail" placeholder="youremail@address.com" required>
+                </p>
+                <p>
+                    <label aria-label="Enter Phone Number Here">*Phone<br>
+                    <input type="tel" name="phone" placeholder="1235551234" required></label>
+                </p>
+            </div>
             
-            <p>
-                <label>Reservation Start Date
-                    <input type="date" name="startDate">
-                </label>
-            </p>
-            <p>
-                <label>Reservation End Date
-                    <input type="date" name="endDate">
-                </label>
-            </p>
-        </div>
-            <p>&nbsp;</p>
-        <h3>For Inn Accommodations Reservations Only</h3>
-        <div class="reservations-details">
-            <p>
-                <label aria-label="Select Room Type Here">Room Type<br>
-                    <input list="rooms" name="rooms">
-                    <datalist id="rooms">
-                        <option value="Single">
-                        <option value="Queen">
-                        <option value="Double Queen">
-                        <option value="King">
-                        <option value="Double Suite">
-                        <option value="Master Suite">
-                    </datalist>
-                </label>
-            </p>
+                <p>&nbsp;</p>
+            <h2>Reservation Information</h2>
+            <div class="reservation-info">
+                <p>
+                    <label aria-label="Select Location Here">*Location<br>
+                        <input list="locations" name="locations">
+                        <datalist id="locations">
+                            <option value="SA, Johannesburg Inn">
+                            <option value="Accra, Ghana Inn">
+                            <option value="Lagos, Nigeria Inn">
+                            <option value="DRC, Kinshasa Inn">
+                        </datalist>
+                    </label>
+                </p>
 
-            <p>
-                <label aria-label="Select Number of Rooms Here">Number of Rooms<br>
-                    <input list="quantity" name="quantity">
-                    <datalist id="quantity">
-                        <option value="1">
-                        <option value="2">
-                        <option value="3">
-                        <option value="4">
-                        <option value="5">
-                        <option value="6">
-                        <option value="7">
-                        <option value="8">
-                        <option value="9">
-                        <option value="10">
-                    </datalist>
-                </label>
-            </p>
-        </div>
-            
+                <p>
+                    <label aria-label="Select Reservation Type Here">Reservation Type<br>
+                        <input list="reservation" name="reservation">
+                        <datalist id="reservation">
+                            <option value="Drop In Change Rooms">
+                            <option value="Temple Shuttle">
+                            <option value="Short Term Babysitting">
+                            <option value="Family History Consultation">
+                            <option value="Missionary Accommodations">
+                            <option value="Wedding Reception">
+                        </datalist>
+                    </label>
+                </p>
+                
+                <p>
+                    <label>Reservation Start Date
+                        <input type="date" name="startDate">
+                    </label>
+                </p>
+                <p>
+                    <label>Reservation End Date
+                        <input type="date" name="endDate">
+                    </label>
+                </p>
+            </div>
+                <p>&nbsp;</p>
+            <h3>For Inn Accommodations Reservations Only</h3>
+            <div class="reservations-details">
+                <p>
+                    <label aria-label="Select Room Type Here">Room Type<br>
+                        <input list="rooms" name="rooms">
+                        <datalist id="rooms">
+                            <option value="Single">
+                            <option value="Queen">
+                            <option value="Double Queen">
+                            <option value="King">
+                            <option value="Double Suite">
+                            <option value="Master Suite">
+                        </datalist>
+                    </label>
+                </p>
 
-            <p class="message">
-                <label aria-label="Enter Additional Notes Here">Message</label><br>
-                <textarea name="message" placeholder="Any additional information" required></textarea>
-            </p>
-            <p><i>*Required</i></p>
-            <button type="submit" name="submit">Make your Reservation</button>
+                <p>
+                    <label aria-label="Select Number of Rooms Here">Number of Rooms<br>
+                        <input list="quantity" name="quantity">
+                        <datalist id="quantity">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </label>
+                </p>
+            </div>
+                
+
+                <p class="message">
+                    <label aria-label="Enter Additional Notes Here">Message</label><br>
+                    <textarea name="message" placeholder="Any additional information" required></textarea>
+                </p>
+                <p><i>*Required</i></p>
+                <button type="submit" name="submit">Make your Reservation</button>
             
         </form>
 

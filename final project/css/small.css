@@ -6,6 +6,12 @@
     box-sizing:border-box;
     font-family:Lato,sans-serif;
 }
+#thanksreservation{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 3em;
+}
 header{
     text-align:center;
     background-color:#f2f2f2;
