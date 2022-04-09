@@ -8,12 +8,16 @@ header{
     text-align:center;
     background-color:#f2f2f2;
     margin:0;
-    display: flex;
     min-width: fit-content;
 }
 .logo{
     width:60%;
     max-width:200px;
     margin:5%;
+}
+    
+img.logo{
+    align-items: center;
+    justify-content: center;
 }
 }
